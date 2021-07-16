@@ -1,0 +1,127 @@
+Class,PAX,Description,Group,Display Order
+SS,0.826,Super Street,Street,1
+AS,0.819,A Street,Street,2
+BS,0.813,B Street,Street,3
+CS,0.81,C Street,Street,4
+DS,0.801,D Street,Street,5
+ES,0.794,E Street,Street,6
+FS,0.804,F Street,Street,7
+GS,0.793,G Street,Street,8
+HS,0.786,H Street,Street,9
+HCS,0.809,Historic Classic Street,Street,10
+HCR,0.825,Historic Classic Race,Street,11
+SSR,0.847,Super Stock Race,Street,12
+STF,0.8,Street Touring FWD,Touring,13
+STS,0.818,Street Touring S,Touring,14
+STR,0.83,Street Touring R,Touring,15
+STX,0.822,Street Touring X,Touring,16
+STU,0.831,Street Touring U,Touring,17
+STP,0.82,Street Touting P,Touring,18
+SM,0.861,Street Modified,Street Modified,19
+SMF,0.848,Street Modified F,Street Modified,20
+SSM,0.875,Super Street Modified,Street Modified,21
+SSP,0.862,Super Street Prepared,Street Prepared,22
+ASP,0.856,A Street Prepared,Street Prepared,23
+BSP,0.853,B Street Prepared,Street Prepared,24
+CSP,0.86,C Street Prepared,Street Prepared,25
+DSP,0.842,D Street Prepared,Street Prepared,26
+ESP,0.837,E Street Prepared,Street Prepared,27
+FSP,0.829,F Street Prepared,Street Prepared,28
+XP,0.892,X Prepared,Prepared,29
+BP,0.869,B Prepared,Prepared,30
+CP,0.854,C Prepared,Prepared,31
+DP,0.865,D Prepared,Prepared,32
+EP,0.859,E Prepared,Prepared,33
+FP,0.873,F Prepared,Prepared,34
+AM,1,A Modified,Modified,35
+BM,0.956,B Modified,Modified,36
+CM,0.901,C Modified,Modified,37
+DM,0.906,D Modified,Modified,38
+EM,0.905,E Modified,Modified,39
+FM,0.916,F Modified,Modified,40
+FSAE,0.966,Formula SAE,Formula,41
+CAM-C,0.823,Classic American Muscle Contemporary,CAM,42
+CAM-T,0.817,Classic American Muscle Traditional,CAM,43
+CAM-S,0.838,Classic American Muscle Sports,CAM,44
+SSL,0.826,Super Street,Street,45
+ASL,0.819,A Street,Street,46
+BSL,0.813,B Street,Street,47
+CSL,0.81,C Street,Street,48
+DSL,0.801,D Street,Street,49
+ESL,0.794,E Street,Street,50
+FSL,0.804,F Street,Street,51
+GSL,0.793,G Street,Street,52
+HSL,0.786,H Street,Street,53
+HCSL,0.809,Historic Classic Street,Street,54
+HCRL,0.825,Historic Classic Race,Street,55
+SSRL,0.847,Super Stock Race,Stock,56
+STFL,0.8,Street Touring FWD,Touring,57
+STSL,0.818,Street Touring S,Touring,58
+STRL,0.83,Street Touring R,Touring,59
+STXL,0.822,Street Touring X,Touring,60
+STUL,0.831,Street Touring U,Touring,61
+STPL,0.82,Street Touting P,Touring,62
+SML,0.861,Street Modified,Street Modified,63
+SMFL,0.848,Street Modified F,Street Modified,64
+SSML,0.875,Super Street Modified,Street Modified,65
+SSPL,0.862,S Street Prepared,Street Prepared,66
+ASPL,0.856,A Street Prepared,Street Prepared,67
+BSPL,0.853,B Street Prepared,Street Prepared,68
+CSPL,0.86,C Street Prepared,Street Prepared,69
+DSPL,0.842,D Street Prepared,Street Prepared,70
+ESPL,0.837,E Street Prepared,Street Prepared,71
+FSPL,0.829,F Street Prepared,Street Prepared,72
+XPL,0.892,X Prepared,Prepared,73
+BPL,0.869,B Prepared,Prepared,74
+CPL,0.854,C Prepared,Prepared,75
+DPL,0.865,D Prepared,Prepared,76
+EPL,0.859,E Prepared,Prepared,77
+FPL,0.873,F Prepared,Prepared,78
+AML,1,A Modified,Modified,79
+BML,0.956,B Modified,Modified,80
+CML,0.901,C Modified,Modified,81
+DML,0.906,D Modified,Modified,82
+EML,0.905,E Modified,Modified,83
+FML,0.916,F Modified,Modified,84
+FSAEL,0.966,Formula SAE,Formula,85
+CAM-CL,0.823,Classic American Muscle Contemporary,CAM,86
+CAM-TL,0.817,Classic American Muscle Traditional,CAM,87
+CAM-SL,0.838,Classic American Muscle Sports,CAM,88
+UNK,0.8,Unknown,Unknown,89
+AWD,1,All Wheel Drive,All Wheel Drive,90
+FWD,1,Front Wheel Drive,Front Wheel Drive,91
+RWD,1,Rear Wheel Drive,Rear Wheel Drive,92
+AWDSTUD,1,All Wheel Drive Studded,All Wheel Drive Studded,93
+FWDSTUD,1,Front Wheel Drive Studded,Front Wheel Drive Studded,94
+RWDSTUD,1,Rear Wheel Drive Studded,Rear Wheel Drive Studded,95
+2WD,1,Two Wheel Drive,Two Wheel Drive,96
+4WD,1,Four Wheel Drive,Four Wheel Drive,97
+OPAX,3,Open PAX class,Open PAX class,98
+LPAX,1,Ladies PAX class,Ladies PAX class,99
+RTF,1,Road Tire FWD,Road Tire FWD,100
+RTR,1,Road Tire RWD,Road Tire RWD,101
+RTA,1,Road Tire AWD,Road Tire AWD,102
+STREET,1,Street classes,Street classes,103
+STOCK,1,Stock classes,Stock classes,104
+STOUR,1,Street Touring classes,Street Touring classes,105
+SPREP,1,Street prepared classes,Street prepared classes,106
+SMOD,1,Street Modified classes,Street Modified classes,107
+PREP,1,Prepared classes,Prepared classes,108
+MOD,1,Modified classes,Modified classes,109
+GROUP1,1,All stock classes,Stock classes,110
+GROUP2,1,All Street Prepared classes,Street Prepared classes,111
+GROUP3,1,All prepared and modified classes,Prepared and Modified classes,112
+GROUP4,1,All Street Touring classes,Street Touring classes,113
+GROUP5,1,SM/SSM/SMF,SS/SSM/SMF classes,114
+GROUP6,1,Ladies class,Ladies class,115
+GROUP7,1,Street Tire Index class,Street Tire Index class,116
+RAW,1,RAW team,RAW Team,117
+PAX,1,PAX Team,PAX Team,118
+Novice,1,Novice drivers,Novice,119
+Open Pax,3,Open PAX group,Open PAX class,120
+Road,1,Road tire group,Road tire group,121
+Race,1,Race tire group,Race tire group,122
+Touring,1,Street Touring group,Street Touring classes,123
+Ladies,1,Ladies group,Ladies group,124
+Stock,1,Stock group,Stock classes,125
+STREET,1,All street classes,Street classes,126

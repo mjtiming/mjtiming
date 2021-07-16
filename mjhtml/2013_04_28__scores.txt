@@ -1,0 +1,206 @@
+CSCC & SASC Championship #1, April 28, 2013
+
+--------------------------------------------------------------------------------
+Run data (ordered by car number):
+Car# Mbr Rky Class Driver           Car                    Sponsor               
+   5 Yes  No   STR Murray P         2002 Honda S2000                             
+                             Day 1:  70.179+DNF  66.638+3    66.364     (65.493)   
+                             Day 2:  68.337      67.131     (66.809)     66.838    
+                             Fun  :  67.689+1  
+                 Total (both days): 132.302
+  11  No Yes   ESP Taylor R         2004 Subaru Impreza                          
+                             Day 1:  77.563+DNF  73.006     (72.018)     75.533    
+                             Day 2:  74.914     (72.129)     72.243+1    76.805+DNF
+                 Total (both days): 144.147
+  32 Yes  No   STR Reijo S          black Honda S2000                            
+                             Day 1:  66.072+2    64.599     (64.429)     65.007    Fun-->  65.039+1  
+                             Day 2:  66.260+3    65.870     (64.975)     65.788+1  Fun-->  65.983    
+                 Total (both days): 129.404
+  58  No Yes    GS Zan G            2012 Mitsu Eclipse                           
+                             Day 1:  76.515      75.748+DNF  75.774     (75.682)   
+                             Day 2:  79.948+DNF  80.294+DNF  78.371+DNF  78.026+DNF
+                 Total (both days):     DNS
+  73 Yes  No   STX Stuart T         2004 Mazda RX8                               
+                             Day 1:  67.455+2    66.677+DNF  67.196     (66.924)   
+                             Day 2:  68.095+2    67.765      67.450+1   (67.756)   
+                 Total (both days): 134.680
+  92 Yes  No    ES Jess W           1993 Toyota MR2                              
+                             Day 1:  75.404      73.125      72.973     (71.057)   
+                             Day 2:  76.361      76.436     (74.000)   
+                 Total (both days): 145.057
+  95  No  No   STX David G          2006 Mustang GT                              
+                             Day 1:  69.678      67.294+1    67.398+1   (66.325)   
+                             Day 2:  68.940+1   (67.431)     69.077+1    67.847    
+                 Total (both days): 133.756
+ 192 Yes  No    ES Cam W            1993 Toyota MR2                              
+                             Day 1:  69.828+DNF  67.945     (67.084)     68.051+3  
+                             Day 2:  68.668+DNF  68.563+1   (68.403)     66.550+DNF
+                 Total (both days): 135.487
+ 308  No  No    CS Samol H          03 nissan 350z 350z                          
+                             Day 1:  75.884     (72.110)     73.126+1    73.567    
+                             Day 2:  80.283      74.906+DNF (73.829+1)   75.763+2  
+                 Total (both days): 147.939
+ 312  No  No    SS Tom G            2010 Chevy Corvette                          
+                             Day 1:  68.327      66.283+1   (66.081)     65.570+2  
+                             Day 2:  69.011      68.698+DNF (66.260)     67.731    
+                 Total (both days): 132.341
+ 334  No Yes   STC Austen Z         silver ford focus                            
+                             Day 1:  82.010      79.099      81.030+DNF (77.840)   
+                             Day 2: (79.644)     76.713+DNF  79.737      77.702+DNF
+                 Total (both days): 157.484
+ 336  No Yes   STX Joshua S         Grey Mitsubishi Lanc                         
+                             Day 1:  87.874+DNF  79.554+DNF  83.036+DNF (78.336+1) 
+                             Day 2:  84.046     (81.095)     81.388      80.240+1  
+                 Total (both days): 161.431
+ 400 Yes Yes    DS David M          2010 Subaru WRX                              
+                             Day 1:  81.414      80.517+1    81.519     (78.465+1) 
+                             Day 2:  81.377+1    79.351+2    80.389+DNF (79.187+1) 
+                 Total (both days): 161.652
+ 535  No Yes   STX Tyler L          white subaru impreza                         
+                             Day 1:  79.585+1    79.299+1    77.220     (76.771)   
+                             Day 2: (78.366)     78.114+DNF 134.844+DNF  81.604    
+                             Fun  :  77.221+DNF
+                 Total (both days): 155.137
+ 667 Yes Yes    SM Andrew B         1988 Mazda rx7                               
+                             Day 1:  68.358+2   105.740+DNF (67.370)     67.750+DNF
+                             Day 2:  69.930      68.809      67.706+1   (66.555+1) 
+                 Total (both days): 135.925
+ 698  No Yes   FSP Milan B          Acura RSX                                    
+                             Day 1:  71.378+DNF (70.592)     69.552+1    70.599+1  
+                             Day 2:  74.034+DNF  70.841+1    71.830+1   (71.204)   
+                 Total (both days): 141.796
+
+--------------------------------------------------------------------------------
+Overall ranking by raw time:
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time   Score
+   1   32 Yes  No   STR Reijo S          black Honda S2000       129.404 100.000
+   2    5 Yes  No   STR Murray P         2002 Honda S2000        132.302  97.810
+   3  312  No  No    SS Tom G            2010 Chevy Corvette     132.341  97.781
+   4   95  No  No   STX David G          2006 Mustang GT         133.756  96.746
+   5   73 Yes  No   STX Stuart T         2004 Mazda RX8          134.680  96.083
+   6  192 Yes  No    ES Cam W            1993 Toyota MR2         135.487  95.510
+   7  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925  95.203
+   8  698  No Yes   FSP Milan B          Acura RSX               141.796  91.261
+   9   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147  89.772
+  10   92 Yes  No    ES Jess W           1993 Toyota MR2         145.057  89.209
+  11  308  No  No    CS Samol H          03 nissan 350z 350z     147.939  87.471
+  12  535  No Yes   STX Tyler L          white subaru impreza    155.137  83.413
+  13  334  No Yes   STC Austen Z         silver ford focus       157.484  82.170
+  14  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431  80.161
+  15  400 Yes Yes    DS David M          2010 Subaru WRX         161.652  80.051
+  16   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS   0.000
+
+--------------------------------------------------------------------------------
+Rookie ranking by raw time:
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time   Score
+   1  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925 100.000
+   2  698  No Yes   FSP Milan B          Acura RSX               141.796  95.860
+   3   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147  94.296
+   4  535  No Yes   STX Tyler L          white subaru impreza    155.137  87.616
+   5  334  No Yes   STC Austen Z         silver ford focus       157.484  86.310
+   6  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431  84.200
+   7  400 Yes Yes    DS David M          2010 Subaru WRX         161.652  84.085
+   8   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS   0.000
+
+--------------------------------------------------------------------------------
+Overall ranking by PAX:
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time   Score
+   1   32 Yes  No   STR Reijo S          black Honda S2000       129.404  0.839   108.570 100.000
+   2   95  No  No   STX David G          2006 Mustang GT         133.756  0.827   110.616  98.150
+   3    5 Yes  No   STR Murray P         2002 Honda S2000        132.302  0.839   111.001  97.810
+   4   73 Yes  No   STX Stuart T         2004 Mazda RX8          134.680  0.827   111.380  97.477
+   5  192 Yes  No    ES Cam W            1993 Toyota MR2         135.487  0.828   112.183  96.779
+   6  312  No  No    SS Tom G            2010 Chevy Corvette     132.341  0.859   113.681  95.504
+   7  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925  0.867   118.113  91.920
+   8  698  No Yes   FSP Milan B          Acura RSX               141.796  0.838   118.825  91.370
+   9   92 Yes  No    ES Jess W           1993 Toyota MR2         145.057  0.828   120.107  90.394
+  10   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147  0.849   122.381  88.715
+  11  308  No  No    CS Samol H          03 nissan 350z 350z     147.939  0.834   123.713  87.759
+  12  535  No Yes   STX Tyler L          white subaru impreza    155.137  0.827   128.298  84.623
+  13  334  No Yes   STC Austen Z         silver ford focus       157.484  0.824   129.767  83.665
+  14  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431  0.827   133.849  81.113
+  15  400 Yes Yes    DS David M          2010 Subaru WRX         161.652  0.826   134.221  80.889
+  16   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS  0.816       DNS   0.000
+
+--------------------------------------------------------------------------------
+Rookie ranking by PAX:
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time   Score
+   1  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925  0.867   118.113 100.000
+   2  698  No Yes   FSP Milan B          Acura RSX               141.796  0.838   118.825  99.401
+   3   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147  0.849   122.381  96.513
+   4  535  No Yes   STX Tyler L          white subaru impreza    155.137  0.827   128.298  92.061
+   5  334  No Yes   STC Austen Z         silver ford focus       157.484  0.824   129.767  91.019
+   6  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431  0.827   133.849  88.243
+   7  400 Yes Yes    DS David M          2010 Subaru WRX         161.652  0.826   134.221  87.999
+   8   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS  0.816       DNS   0.000
+
+--------------------------------------------------------------------------------
+Overall ranking by group and class:
+
+Group: STOUR (Street Touring classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1   32 Yes  No   STR Reijo S          black Honda S2000       129.404   .839   108.570  100.000 
+T  2   95  No  No   STX David G          2006 Mustang GT         133.756   .827   110.616   98.150 
+T  3    5 Yes  No   STR Murray P         2002 Honda S2000        132.302   .839   111.001   97.810 
+   4   73 Yes  No   STX Stuart T         2004 Mazda RX8          134.680   .827   111.380   97.477 
+   5  535  No Yes   STX Tyler L          white subaru impreza    155.137   .827   128.298   84.623 
+   6  334  No Yes   STC Austen Z         silver ford focus       157.484   .824   129.767   83.665 
+   7  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431   .827   133.849   81.113 
+
+Group: STSTOCK (Stock street tire classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1  192 Yes  No    ES Cam W            1993 Toyota MR2         135.487   .828   112.183  100.000 
+T  2  312  No  No    SS Tom G            2010 Chevy Corvette     132.341   .859   113.681   98.683 
+   3   92 Yes  No    ES Jess W           1993 Toyota MR2         145.057   .828   120.107   93.403 
+   4  308  No  No    CS Samol H          03 nissan 350z 350z     147.939   .834   123.713   90.680 
+   5  400 Yes Yes    DS David M          2010 Subaru WRX         161.652   .826   134.221   83.581 
+   6   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS   .816       DNS    0.000 
+
+Group: STOTHER (Street Tire Other classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925   .867   118.113  100.000 
+   2  698  No Yes   FSP Milan B          Acura RSX               141.796   .838   118.825   99.401 
+   3   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147   .849   122.381   96.513 
+
+--------------------------------------------------------------------------------
+Rookie ranking by group and class:
+
+Group: STOUR (Street Touring classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1  535  No Yes   STX Tyler L          white subaru impreza    155.137   .827   128.298  100.000 
+   2  334  No Yes   STC Austen Z         silver ford focus       157.484   .824   129.767   98.868 
+   3  336  No Yes   STX Joshua S         Grey Mitsubishi Lanc    161.431   .827   133.849   95.853 
+
+Group: STSTOCK (Stock street tire classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1  400 Yes Yes    DS David M          2010 Subaru WRX         161.652   .826   134.221  100.000 
+   2   58  No Yes    GS Zan G            2012 Mitsu Eclipse          DNS   .816       DNS    0.000 
+
+Group: STOTHER (Street Tire Other classes)
+Rank Car# Mbr Rky Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1  667 Yes Yes    SM Andrew B         1988 Mazda rx7          135.925   .867   118.113  100.000 
+   2  698  No Yes   FSP Milan B          Acura RSX               141.796   .838   118.825   99.401 
+   3   11  No Yes   ESP Taylor R         2004 Subaru Impreza     144.147   .849   122.381   96.513 
+
+--------------------------------------------------------------------------------
+Cone counts:
+Rank Car# Driver         Cones
+   1   32 Reijo S           7
+   2  400 David M           6
+   3   73 Stuart T          5
+   4  698 Milan B           4
+   4  308 Samol H           4
+   4  667 Andrew B          4
+   4   95 David G           4
+   4    5 Murray P          4
+   4  192 Cam W             4
+   5  312 Tom G             3
+   6  336 Joshua S          2
+   6  535 Tyler L           2
+   7   11 Taylor R          1
+
+--------------------------------------------------------------------------------
+Day1: First run: 10:43:00 Last run: 12:12:20 Number of runs: 65 Avg run time: 72.86
+Day2: First run: 01:16:32 Last run: 03:03:58 Number of runs: 64 Avg run time: 73.83
+Fun:  First run: 12:03:44 Last run: 01:57:54 Number of runs: 2 Avg run time: 72.46
+

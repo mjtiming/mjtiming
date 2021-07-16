@@ -1,0 +1,69 @@
+Class,PAX,Description,Group,Display Order
+SS,0.858,Super Stock,Stock,1
+AS,0.844,A Stock,Stock,2
+BS,0.843,B Stock,Stock,3
+CS,0.833,C Stock,Stock,4
+DS,0.821,D Stock,Stock,5
+ES,0.828,E Stock,Stock,6
+FS,0.825,F Stock,Stock,7
+GS,0.814,G Stock,Stock,8
+HS,0.799,H Stock,Stock,9
+STF,0.794,Street Touring FWD,Touring,10
+STC,0.82,Street Touring C,Touring,11
+STS,0.827,Street Touring S,Touring,12
+STR,0.835,Street Touring R,Touring,13
+STX,0.822,Street Touring X,Touring,14
+STU,0.841,Street Touring U,Touring,15
+SM,0.866,Street Modified,Street Modified,16
+SMF,0.852,Street Modified F,Street Modified,17
+SSM,0.879,Super Street Modified,Street Modified,18
+SSP,0.865,S Street Prepared,Street Prepared,19
+ASP,0.863,A Street Prepared,Street Prepared,20
+BSP,0.859,B Street Prepared,Street Prepared,21
+CSP,0.857,C Street Prepared,Street Prepared,22
+DSP,0.851,D Street Prepared,Street Prepared,23
+ESP,0.848,E Street Prepared,Street Prepared,24
+FSP,0.838,F Street Prepared,Street Prepared,25
+XP,0.898,X Prepared,Prepared,26
+BP,0.873,B Prepared,Prepared,27
+CP,0.86,C Prepared,Prepared,28
+DP,0.868,D Prepared,Prepared,29
+EP,0.87,E Prepared,Prepared,30
+FP,0.875,F Prepared,Prepared,31
+GP,0.85,G Prepared,Prepared,32
+AM,1,A Modified,Modified,33
+BM,0.96,B Modified,Modified,34
+CM,0.906,C Modified,Modified,35
+DM,0.915,D Modified,Modified,36
+EM,0.928,E Modified,Modified,37
+FM,0.913,F Modified,Modified,38
+FSAE,0.989,Formula SAE,Formula,39
+UNK1,0.8,Unknown1,Unknown1,40
+UNK2,0.8,Unknown2,Unknown2,41
+UNK3,0.8,Unknown3,Unknown3,42
+AWD,1,All Wheel Drive,All Wheel Drive,43
+FWD,1,Front Wheel Drive,Front Wheel Drive,44
+RWD,1,Rear Wheel Drive,Rear Wheel Drive,45
+2WD,1,Two Wheel Drive,Two Wheel Drive,46
+4WD,1,Four Wheel Drive,Four Wheel Drive,47
+OPAX,1,Open PAX class,Open PAX class,48
+LPAX,1,Ladies PAX class,Ladies PAX class,49
+RTF,1,Road Tire FWD,Road Tire FWD,50
+RTR,1,Road Tire RWD,Road Tire RWD,51
+RTA,1,Road Tire AWD,Road Tire AWD,52
+STOCK,1,Stock classes,Stock classes,53
+STOUR,1,Street Touring classes,Street Touring classes,54
+SPREP,1,Street prepared classes,Street prepared classes,55
+SMOD,1,Street Modified classes,Street Modified classes,56
+PREP,1,Prepared classes,Prepared classes,57
+MOD,1,Modified classes,Modified classes,58
+STSTOCK,1,Stock street tire classes,Stock street tire classes,59
+STOTHER,1,Street Tire Other classes,Street Tire Other classes,60
+STINDEX,1.0,Street Tire Index,Street Tire Index,61
+GROUP1,1.0,All stock classes,Stock classes,62
+GROUP2,1.0,All Street Prepared classes,Street Prepared classes,63
+GROUP3,1.0,All prepared and modified classes,Prepared and Modified classes,64
+GROUP4,1.0,All Street Touring classes,Street Touring classes,65
+GROUP5,1.0,SM/SSM/SMF,SS/SSM/SMF classes,66
+GROUP6,1.0,Ladies class,Ladies class,67
+GROUP7,1.0,Street Tire Index class,Street Tire Index class,68

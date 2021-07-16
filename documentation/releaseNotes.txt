@@ -1,0 +1,495 @@
+How to install:
+	Unzip the file into c:\mjtiming
+	This zip file will not modify your existing configuration and data files
+	If this is a new installation, config folders, etc. will be created the first time
+	you run mjtiming.
+
+Things to do (bugs, deficiencies, wish list)
+	Estimate finish time vs number of runs
+	Show average overlap (car starting before previous car finishes)(3+ cars)
+	Show time for run group changeovers
+	In scoring summary, give RAW and PAX ftd
+	Remember columns positions and widths when changing tabs
+	Bug: OPAX group (1st 3 runs) applies everywhere, not just OPAX group scores
+	Scoring -- show DNFs for rookies and non-rookies
+
+September 29, 2020
+	Changed set number selection from radio buttons to a drop down seection to prevent
+	accidental changes.
+
+August 19, 2020
+	Add configurable timeout to serial read
+	Increased default serial timeout to 100 milliseconds
+	Add debug output showing all serial data received
+	Fixed error where stopHoldoff was using startHoldoff value
+	Reduced default holdoff values to 1 second
+
+June 04, 2020
+	Copy _scoreStyles.css over to config folder on startup if one not already there
+
+May 28, 2020
+	Updated PAX values and classes for 2020
+	Allow multiple finish triggers (aka laps) before run is complete
+
+October 10, 2019
+	Changed score file names as follows:
+	  - removed d1 and d2 designators for Set1 and Set2 scores
+	  - Added a 2-day designator for 2 day scoring so it won't overwrite 1 day scores
+	  - changed score file names so they sort better by name in event folder
+	Autogenerate both text and html scores when "Create Scores" button is pressed
+	Only a single BAT file created that creates both text and html scores
+	Open explorer window to event data folder when "Create Scores" button is pressed
+	Team name (or number) now saved to CSVdata.csv file
+
+July 2, 2019
+	Fixed 2 day scoring so that both days registration files do not need to be manually merged.
+
+January 5, 2019
+	Change PAX to 2019 values (requires manual copy to overwrite existing file)
+	Copy mjtiming\config_templates\_classData.csv to mjtiming\config\_classData.csv
+
+November 15, 2018
+	Refuse to start timing if date has changed since startup.
+
+October 15, 2018
+	Overall scores attendance counted people who registered but didn't run.
+
+August 21, 2018
+	Reduced start and stop holdoff (10 seconds was too long for the stop holdoff due to slow drivers).
+	NOTE: Existing users will need to manually reduce these values via the configuration tab, since updates
+		only change the templates, not the current config.
+	Added the ability to concatenate car# and car class when importing drivers from MSR reports 
+	This is for those clubs that don't want to impose unique car numbers for an event.
+
+May 7, 2018
+	Overall scores was not showing group and xgroup scores.  Fixed.
+
+April 24, 2017
+	Fixed formatting error in text scores (rookie RAW scores)
+
+March 26, 2018
+	Merged group and xgroups in scoring output (looks much cleaner)
+	Removed Preferred Number column (and code that uses it)
+	Removed rally scoring (didn't work)
+	Now allow multiple Xgroups per person (in Xgroup field, separated by a semicolon)
+	New config field (classAsGroup) that automatically adds driver's class to list of groups to be scored
+	If OPAX is only group in the xgroup field, then first 3 runs are used for that driver (all scoring groups :( )
+
+March 8, 2018
+	If Xgroup PAX value > 2 (e.g. OPAX), then drivers in that group are limited to those # runs for scoring
+	Removed "Import from Karelo" button in registration
+	Added a "Delete all drivers" button in registration
+	Removed the "Summary" scoring display
+
+January 27, 2018
+	Fixed up some html scoring issues
+		The BAT file cmd that overwrote the scores.txt file
+		The car descriptions were being truncated
+
+January 27, 2018
+	Second group added (XGroup) to allow scores for secondary groupings (e.g. Corvette owners or Ladies)
+
+November 18, 2017
+	Removed autoreverse capability (too error prone to be usable)
+
+November 11, 2017
+	Display penalty on MJTiming wireless displays (leading minus for cones, leading d for DNF)
+
+September 25, 2017
+	Tweaked _webStyles css sheet for better live WiFi results
+	Modified MJAnnounce to copy over _webStyles.txt file to config folder if one not there
+
+September 21, 2017
+	Modify webstyle.txt a bit
+	Changed save loop so it sleeps a bit less during save
+
+August 14, 2017
+	Fixed major errors in team scoring
+
+November 24, 2016
+	Removed setting of run time when DNF or RRN applied to car not yet started
+	Reduced writing to disk when unnecessary
+	Changed to 2017 PAX values
+
+October 7, 2016
+	Prevent 2nd copy of mtiming to start (force single instance)
+
+September 22, 2016
+	Added a config item called runheats that selects heats by class or group
+	Modified run heat calcs to use runheats config item
+
+May 4, 2016
+	Added operational documentation for both MJTiming and Farmtek systems.
+	The MJTiming doc also explains how to do event and overall scoring.
+
+April 6, 2016
+	Modified sorting of results to handle car numbers with trailing letters instead of digits
+
+April 2, 2016
+	Added a carnumbers app to print out all car numbers and driver names used for the year
+
+January 16, 2016
+	Updated _classData.csv file in templates folder to 2016 PAX values
+	Added a _classData2016.csv file to templates folder
+	Fixed the MJannounce mechanism to suppress screen updates when nothing changed
+
+November 8, 2015
+	MJannounce will not update the results textbox if nothing has changed from last time
+
+October 22, 2015
+	Do not display radio and alignment status bars for non-mjtiming systems
+	If a bad barcode is read, color "Car" cell with a red background
+
+July 29, 2015
+	Removed -oneday argument for scoring and replaced with more explicit
+	options (e.g. -set1plusset2)
+	Fixed GUI scoring bug that didn't allow 2nd day to be used.
+	Added Farmtek input formats to documentation folder.
+
+June 23, 2015
+	A few fixes to class data templates
+	Fix to order rookie classes in overalls correctly
+
+May 9, 2015
+	Added capability for JAC Chrono format.  This allows people with a Farmtek
+	system to generate working reset start and reset finish events from the
+	Farmtek timing console.
+
+	Reduced font size in mjannounce to 6 point from 10 point
+	Increased space for name to 16 characters, and now truncate the name if longer.
+April 27, 2015
+	Driver and timer data could be deleted due to an invalid first entry in timing data.
+	No longer deletes the files, even if there is some possible garbage at the start.
+
+April 17, 2015
+	Added some more columns to be recognized when importing registrations
+	Delete leading 0s from car number when importing
+	Rallyx scoring modified for CSCC needs (best single run).
+December 23, 2014
+	Added studded classes (AWDSTUD, FWDSTUD, RWDSTUD)
+
+December 18, 2014
+	Show number of incoming queries in mjannounce
+	Add 2015 PAX files (_classdata.csv, _classdata2015.csv
+
+October 8, 2014
+	Any class defined with a PAX greater than 2 will use that PAX value as a max official runs.
+	e.g. OPAX has a PAX of 3.  All drivers in the OPAX group will be limited to their first 3 runs.
+	Run heats now done by registration group, class group if blank.  e.g. All people in OPAX group
+	will be run in same heat.
+	MJannounce now handles 2 day events
+	MJannounce now handles data folders other than c:\mjtiming (for running on separate computer)
+
+October 7, 2014
+	Added attendance figures as an optional output from mjoveralls
+	
+October 2, 2014
+	Added a program called AxwareConvert that reads an Axware final report
+	and outputs the timing data in mjtiming format.  It does not (yet)
+	produce a driverData.csv file
+
+October 1, 2014
+	Removed Import from Axware. It now encrypts its raw data.
+
+August 19, 2014
+	Fixed error in 2 day, 4 set scoring of PAX values.
+
+July 22, 2014
+	Removed member and rookie indicators from overalls
+	Removed member and rookie indicators from everything except run times
+	Removed trophy indicator from overalls
+
+July 22, 2014
+	Revert back to text format for mjoveralls
+July 21, 2014
+	Fixed error in 2-day scoring.  Drivers were not DNFed if they did not
+	attend on day 2.
+July 13
+	Handled exception in mjannounce webserver that was being missed
+	Modified mjoveralls to generate html instead of text
+June 21
+	Fixed a fencepost programming error in registration import
+June 17
+	Fixed html style sheet to work with all browsers
+	Embed style sheet into each html file
+June 12
+	htmlscores.exe added -- currently produces very ugly html
+	Created an htmlScoreCMD.bat file when creating scores from mjtiming
+	Added a ShowLastName config item
+	Now shows last name (or first letter of last name) depending on config
+June 6
+	Axware import now handles the Axware single letter "Class 2" elements as groups
+
+June 3
+	Add class times to mjannounce webserver output
+	Modify text scores to allow return of individual scoring items
+	Modify mjannounce and webserver to use new textScoringSplit method
+	Much reduced cpu load by mjannounce now.
+June 2
+	Unfound barcode results in car number of NOBARCODE
+	Barcode entry does not move cursor focus
+	Overalls handling rookie scores correctly again:
+	   mjoveralls is looking for Y/N in Rky field, but scoring was writing TRUE/FALSE
+May 30
+	Updated webserver code to run asynchronously
+	Added stop button for webserver to allow reset without restarting mjannounce
+
+May 27, 2014
+	Show total registered drivers in heats tab
+	Copy _driverData.csv file from template if one does not exist
+	Various bug fixes
+
+May 14, 2014
+	Add style sheet capabilitiy to mjannounce webservice
+	_webStyle.txt will need to be copied from config_templates to config folder
+
+
+May 13, 2014
+	Generate random heat orders in heats tab
+
+May 8, 2014
+	Added web server capability to mjannounce
+	Added search function in registration
+
+May 6, 2014
+	Car class now displayed in announcer output
+	T-Link status messages now controls radio lights on timing tab
+	Suppress extraneous log messages from T-Link crud
+
+May 4, 2014
+	Added ladies classes to classdata files
+	Enhanced output for run heats, including fuill driver list
+	Run heats group "Open Pax" into a single heat
+	Added import for MotorSportReg (MSR) reports
+	Tested with T-Link hardware -- works fine.
+
+
+April 18, 2014
+	Added match scoring (crude, but workable)
+
+April 08, 2014
+	Added configurable trigger holdoff for both start and stop triggers
+
+March 18, 2014
+	Major re-work of scoring:
+		Day1/Day2 are now Set1/Set2/Set2
+		Team scores now work for any team, not just those with groups RAW/PAX
+		Text output module is now separate from scoring calculation module
+		Sample output program source included for clubs that wish to generate their own score format
+		Two day scoring now accounts for multiple run sets per day
+		Summary output added to help announcer
+		mjAnnounce app added for announcers
+
+February 22, 2014
+	Accepts timing input from Race Ameria T-Link wireless systems
+	Accepts and displays car numbers that contain letters (e.g. 123BS)
+January 9, 2014
+	Added barcode reading capability
+December 12, 2013
+	Added Team column and score teams by using team name instead of car number
+	Fixed bug: column mixup when switching registration files
+	Added registration barcode column in prep for future changes
+	Updated _classData.csv to 2014 values
+September 6, 2013
+	Added config item for auto-reversing of start and stop
+	Fixed cone counts when day1 ony or day2 only is selected
+June 24, 2013
+	When membership or rookie status changes, show previously attended events
+June 18, 2013
+	Prevent class files from being overwritten when changing the path
+	in the config
+May 29, 2013
+	Stop auto-filling group field
+May 2, 2013
+	Added file open dialog for selecting driverDataFile or classDataFile when cell is double clicked
+	Fixed bug where changing to new driver data file overwrote the new file's contents
+May 2, 2013
+	Automatically swap start and finish beams.  If no timer is running, then the first beam tripped
+	becomes the new start beam.
+April 7, 2013
+	Added street tire classes to class file (format of T<class>)
+March 6, 2013
+	Scoring overwrites driverData file if it is in the eventdata folder and is today's file
+	This forces the event file to be up to date with the registration file at all times
+February 28, 2013
+	Create score command scripts if day1-only or day2-only are chosen
+February 25, 2013
+	Create separate files for day1-only and day2-only scores
+	Modify overalls to score these as separate events
+February 19, 2013
+	Overalls title now printed
+February 5, 2013
+		Fixed sort order for rookie rallyx points in overalls
+		Fixed rookie ranking order numbers (was 1,3,5,7,...)
+January 21, 2013
+		Fixed overalls to work with rallyx points
+January 13, 2013
+		Remove code that automatically changed day #
+November 10, 2012
+		Fix max # runs scoring bug
+October 31, 2012
+		Allow max # runs to be specified (remainder of runs marked as fun, but
+		stay listed on the day in question)
+September 25, 2012
+		Tell who is already using a number in the duplicate popup
+		Allow duplicate number to be forcibly used (add an "x" to one in use)
+
+September 22, 2012
+		Fill in Group field with default of STSTOCK, STOUR, STOTHER
+		Overalls no longer prints out people with 0.0 scores
+
+August 14, 2012
+		Added -membersonly option to mjoveralls to allow printing of members only.
+
+August 8, 2012
+		Changed run heats back to using individual car classes instead of car groups.
+		The group method was too course to be useful.
+
+July 16, 2012
+		Fixed more team scoring errors (and added team cone counts)
+		Removed the forced uppercase error(s)
+
+July 03, 2012
+		Fixed several team scoring errors
+		Force non-blank value for car number (registration)
+		Force uppercase value for car number (registration and timing)
+		Trim leading and trailing spaces from car number (registration and timing)
+		The last 3 changes are leading up to allowing cars to have the same number in
+		different classes by entering "100BS" in timing instead of just 100 for the car number.
+		Later releases will use this to find the right car/class in the registration list
+		and for scoring.
+	Known bugs or deficiencies:
+		User manual out of date
+		Unable to add new columns from within the program
+		Need column mapping for registration imports (Karelo, Axware, whatever)
+		Reset trigger sometimes buggers up subsequent times.  Not known why.
+		Log all inputs to a log file for post-event analysis
+
+June 17, 2012
+		Added team scoring
+		Reversed readme file so newest revision shown first
+	Known bugs or deficiencies:
+		User manual out of date
+		Unable to add new columns from within the program
+		Need column mapping for registration imports (Karelo, Axware, whatever)
+		Reset trigger buggers up subsequent times.  Not known why.
+
+June 5, 2012
+		Updates will not disturb existing config and data
+		Opens score text file in notepad when "Create score files" button is pressed
+		Cone count rank not increased until cone count changes
+		Running timers are now cancelled when timing is stopped or program stopped
+		May have found the issue with "Reset Stop" -- we shall see
+		Removed warning popup based on laptop time (didn't do anything useful)
+	Known bugs or deficiencies:
+		User manual out of date
+		Unable to add new columns from within the program
+		Need column mapping for registration imports (Karelo, Axware, whatever)
+		Reset trigger buggers up subsequent times.  Not known why.
+
+May 29, 2012
+		Scores BAT file creates file in current dir, not c:\mjtiming
+		Rookie RAW percentage was mixed up with overall RAW scores
+		Run time scores show an indicator of best run in day (xxx.xxx) or *xxx.xxx*
+		Karelo import was missing car numbers
+		Add a -norookie command parameter to mjoveralls.exe to suppress rookie scores
+		Added some stats to the scores
+		Moved documentation to its own folder
+	Known bugs or deficiencies:
+		User manual out of date
+		Some config changes require exit and restart
+		Class edits require exit and restart
+		Imported Axware timing data looks a bit funky until exit and restart (it is correct though)
+		Unable to add new columns from within the program
+		Need automated update feature to keep existing registration and config data.
+		Registration popup selection for group/class?
+		Print button for scores?
+		Dropdown list for class and group?
+		Reset trigger buggers up subsequent times.  Not known why.
+		Tie indicators for cone counts
+May 13, 2012
+	Auto-create event folder and backup folder if they don't exist
+	Check existence of files/folders when config item changed
+	Warning popup if run time differs too far from laptop calc of same
+	Known bugs or deficiencies:
+		User manual out of date
+		Some config changes require exit and restart
+		Class edits require exit and restart
+		Imported Axware timing data looks a bit funky until exit and restart (it is correct though)
+		Unable to add new columns from within the program
+		Need automated update feature to keep existing registration and config data.
+		Run time scores need indicator of best run in day (xxx.xxx) or *xxx.xxx*
+		Registration popup selection for group/class?
+		Print button for scores?
+		Dropdown list for class and group?
+		Missed trigger buggers up subsequent times.  Not known why.
+		Karelo import from CSCC buggered up
+April 14, 2012
+	Class edits no longer require exit and restart
+	scoreCMD.bat created with "-path ." arg to allow moving to different folders
+	Known bugs or deficiencies:
+		User manual out of date
+		Some config changes require exit and restart
+		Class edits require exit and restart
+		Imported Axware timing data looks a bit funky until exit and restart (it is correct though)
+		Unable to add new columns from within the program
+		Need automated update feature to keep existing registration and config data.
+		Run time scores need indicator of best run in day (xxx.xxx)
+		Registration popup selection for group/class?
+		Auto-create event folder and backup folder!
+		Check existence of files/folders when config item changed!
+		Print button for scores?
+		Dropdown list for class and group?
+		Missed trigger buggers up subsequent times.  Not known why.
+April 6, 2012
+	Fixed corruption of config file when a parameter field was deleted
+	Added ability to edit class/PAX file
+	Will optionally play sounds for start/finish trigger events
+	First available car # seed value is now configurable
+	Secondary display port now works
+	Class sort order now allows floats (e.g. 1.5 will sort between 1 and 2)
+	Karelo import now imports columns where the header name matches one in the registration CSV file.
+	This does not apply to some special columns (Number, Member, Rookie, First Name, Last Name)
+		e.g. 	Use Excel to add a column in your registration file with the heading "Preferred car number"
+			Now, if the Karelo report contains a "Preferred car number" column, it will be imported.
+			BTW, this is my solution to importing car numbers.  Every club has different rules
+			regarding what numbers are open, so I just assign a number above 300.  However, the
+			"Preferred car number" column shows what the user wants.
+	Known bugs or deficiencies:
+		User manual out of date
+		Some config changes require exit and restart
+		Class changes require exit and restart
+		Overalls generation from scoring tab
+April 10, 2012
+	Import registration and timing data from an Axware event.
+	On exit, delete event files if no timing data has been created
+	Changed day modifier checkboxes with proper radio buttons
+	Fixed issue where overall scoring confused rookie scores with overall scores
+	Fixed day1 vs eventName confusion in score file generation
+	Known bugs or deficiencies:
+		User manual out of date
+		Some config changes require exit and restart
+		Class edits require exit and restart
+		Imported Axware timing data looks a bit funky until exit and restart (it is correct though)
+		Unable to add new columns from within the program
+		Need automated update feature to keep existing registration and config data.
+April 3, 2012
+	Fixed overall scoring (I hope)
+	Known bugs or deficiencies:
+		Class and PAX data is read-only
+		Import from Karelo doesn't handle car numbers
+		Import from Karelo doesn't handle club-specific fields
+		User manual out of date
+
+March 31, 2012
+	Many scoring improvements (selection of day1 or day2 only, rookie scores for raw times)
+	Fixed bug where config columns kept being added on every visit
+	Class and PAX value tab (read only for now)
+	Added groups (i.e. OPAX) for scoring and heat assignments
+	F2 key cycles between timing and registration
+	Known bugs or deficiencies:
+		Overall scoring is flaky
+		Import from Karelo doesn't handle car numbers
+
+
+

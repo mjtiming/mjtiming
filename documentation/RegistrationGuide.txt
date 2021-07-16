@@ -1,0 +1,148 @@
+SASC / M&J Timing Registration Procedure
+see http://members.shaw.ca/MJ-Timing, then mjtiming-setup.docx
+
+on a computer with internet access, go to "www.motorsportreg.com" (MSR) in your browser
+click on "Organizers" (top right)
+sign in as SASC with password as given by someone in authority
+check to make sure the event is marked as Closed
+click on "Registrations" (top right-ish of event header)
+click on "Reports" (top right)
+under "My Saved Reports", click on "M&JTiming report"; remember the number of registrations
+click on "Export" (middle of header)
+choose "Comma-separated values (CSV)", then click on "Export Report"
+a file will be created in c:\tmp named yyyymmdd-MJTimingreport.csv;
+    bring up this file and check that the number of lines matches the earlier count
+    (if not, delete this file and repeat the export until it does)
+click on "Logout" (top-most right)
+if you haven't performed the above on the club timing computer,
+    transfer the file over to it (we use a "zip" drive)
+
+the remainder MUST be done on the club timing computer
+
+bring up MJTiming using the desktop icon; make it full-screen
+click on "Registration"
+click on "Clear notes" then "Yes"
+click on "Unregister all drivers" then "Yes"
+click on "Import from MSR"
+find the file exported above, click on it, then click "Open"
+click (again) on "Unregister all drivers" then "Yes"
+
+Notes:
+- you MUST clear the Notes column BEFORE you load the new Export file - it is
+  populated from the MSR registrations with who has paid and how much
+  (clear it out from the last event, and it gets re-populated from the Export file
+  for the current event)
+- you MUST "Unregister all drivers" AFTER you load the new Export file, since we
+  want it to ONLY be set during on-site registration for those people who actually
+  show up, in order to correctly balance the run groups
+- the Exported data is ADDED TO (not replaces completely) the data already in the database
+
+all of the above can be done any time from when MSR registration closes
+    until on-site registration closes
+
+when on-site registration opens:
+
+bring up MJTiming using the desktop icon; make it full-screen
+as each person arrives to check in, have them
+- sign the waiver (also Parental Consent and Minor Participant, if appropriate)
+- submit their self-tech form
+- present their driver's license
+- if wanting/claiming member prices, present their proof of membership
+look them up in the list
+if they are there, verify ALL the data columns; if they are there more than
+    once but with slight differences (e.g. case; nick-name), ask them to be
+    consistent when registering since their placement in the overall standings
+    will be separate for each one (e.g. Jens-Timothy Hoffman sometimes appears
+    as Tim Hoffman; there is a James Callaghan Jr and Sr)
+if they are NOT there, click on "Add driver" and fill in all required columns
+    and all optional columns they wish to contribute (good task for a second
+    registration person)
+column by column:
+- Number - required
+  - must be unique for the event
+  - any number of any characters ("26" is NOT the same as "026" nor "26A" nor "26000")
+  - must match EXACTLY what they put on the car or timing cannot find them when recording
+  - for a new driver, the default is the highest number so far plus 1
+  - if the number is a duplicate of one already in the data, it will ask you if you want
+    to use it anyway and who is using it - if you say to use it anyway, the other person's
+    number will have an X appended (use your judgement - if the other person is coming,
+    don't let them have it; if it's someone who comes regularly, don't let them have it;
+    if it's someone you've never heard of, it's probably OK to let the new person have it;
+    the registration database should be cleaned out at the start of each year)
+  - it is expected that numbers less than 100 are for members only, and that numbers from
+    100 to 199 are for co-drivers (of members)
+  - if you want to be picky, SCCA rules say that a co-driver's car number must be at least
+    100 greater than the first driver's number
+- Preferred - optional - second choice of Number
+  - try this new number first if there's a problem with using the first one
+- Registered - required; yes/no
+  - set this to "Yes" for this person
+- Notes - required
+  - if they paid on MSR, it will give the amount they paid
+  - if it's a Member price, inspect their proof of membership
+  - if it's $0.00, get the money from them (again, if they want Member price, inspect
+    their proof of membership)
+  - for 2016, prices are:
+    pre-reg, member
+    pre-reg, non-member
+    on-site, member
+    on-site, non-member
+  - if it says "(new entry)" after the amount paid, it means this was this person's first
+    time using MSR, so use extra care in verifying the data
+- First Name - required
+  - as entered / as they would enter on MSR (including case)
+- Last Name - required
+  - as entered / as they would enter on MSR (including case)
+- WCMA - optional; yes/no
+  - may or may not appear
+  - are they a member of a WCMA-affiliated club or not
+  - used for the WCMA race series to determine eligibility
+- Member - required; yes/no
+  - for members of SASC and/or CSCC ONLY
+  - to determine elegibility for club championship awards
+- Rookie - required; yes/no
+  - to determine eligibility for club novice awards
+  - SASC:  3 events (I think)
+  - CSCC:  2 years (I think)
+- Group - required
+  - used to determine run groups
+  - under the "Classes" tab, at the bottom, are the Groups (anything with a PAX of >= 1 except AM and AML)
+  - see http://members.shaw.ca/MJ-Timing, then mjtiming-setup.docx
+- Class - required
+  - SCCA classing (see web)
+  - for a given event, should the person drive more than one car,
+    this must be the class with the worst/highest PAX number
+  - must match EXACTLY what they put on the car
+- Car Model - semi-required
+  - year, make, model
+  - some people drive more than one car
+- Car Color [sic] - semi-required
+  - what will a course worker say when calling in penalties
+    (should they miss the car number)
+- Tire - optional
+  - SASC doesn't use
+- Sponsor - optional
+  - SASC doesn't use
+- Fee - optional
+  - SASC doesn't use
+- Barcode - optional
+  - SASC doesn't use
+- Team - optional
+  - SASC doesn't use
+
+Notes:
+- the registration tab works a lot like a spreadsheet, in that:
+  - you can sort by any column simply by clicking on the column header
+    (once for ascending, again for descending)
+  - column width can be adjusted by dragging the column separator; but no column will
+    ever disappear off the right (there is no left/right scrolling)
+  - page up/down works as expected
+  - home/end goes to first/last column for that line
+- for yes/no columns, you can just type "y" or "n" (either case) and it will change it to
+  "Yes" or "No" as soon as you exit the column
+- Member price if they are a member this club or any associated club (e.g. WCMA, SCCA, CSCC)
+- SCCA rules:  All cars must have car numbers and class letters on both sides. Car numbers
+  will be a minimum of eight inches high and a minimum of 1-1/4 inch stroke. Class letter
+  must be between 25% and 50% of the number size, no smaller than 3 inches high, and located
+  adjacent to the numbers.  Color must be of adequate contrast to the car color.
+- in order to delete a line, highlight the ENTIRE line using the pointer column, then hit the "Del" key

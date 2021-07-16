@@ -1,0 +1,447 @@
+Scores for event of 2021_06_21
+
+--------------------------------------------------------------------------------
+Run data (ordered by car number):
+    Car# Mbr Rky           Class Driver           Car                    Sponsor               
+       1  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  70.035      69.583    
+                 Total (both sets):     DNS
+       2  No Yes              FS Logan P          2002 Nissan Silvia                           
+                   Day 1 Set 1  65.939+1   (65.115)   
+                 Total (both sets):     DNS
+       5  No  No              CS Murray P         2017 Mazda MX-5                              
+                   Day 1 Set 1  46.767+DNF  60.870      59.120      59.815     (58.441)   
+                 Total (both sets):     DNS
+       6  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  69.764+DNF  67.853      68.509+DNF  66.253      65.005    
+                 Total (both sets):     DNS
+       9  No  No            XS-A Jay Z            2020 Tesla Model 3 P                         
+                   Day 1 Set 1  62.986     (60.656)     60.891      60.320+1    59.979+1  
+                 Total (both sets):     DNS
+      11  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  63.130      64.966    
+                 Total (both sets):     DNS
+      12  No  No              BS Tom G            2017 Chevy Camaro SS                         
+                   Day 1 Set 1  52.560+DNF  65.816      65.623     (64.111)     64.176    
+                 Total (both sets):     DNS
+      14  No Yes              FS Kiana L          2007 Nissan Altima                           
+                   Day 1 Set 1  67.381      67.327      72.443      68.055     (66.805)   
+                 Total (both sets):     DNS
+      16  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  48.678+DNF  64.012      63.231      65.201      62.192    
+                 Total (both sets):     DNS
+      17  No  No              SM Jim L            1991 Toyota MR2 N/A                          
+                   Day 1 Set 1  68.968      68.396      65.882      66.353     (65.052)   
+                 Total (both sets):     DNS
+      20  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  49.144+DNF  62.029      62.880+1    60.839      59.907    
+                 Total (both sets):     DNS
+      21  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  65.857      65.717      65.600      63.632      63.626    
+                 Total (both sets):     DNS
+      22  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  63.931      63.016    
+                 Total (both sets):     DNS
+      24  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  96.959+DNF  62.738      62.201      99.999+DNF  62.110    
+                 Total (both sets):     DNS
+      26  No Yes              BS Mark T           2010 Aston Martin Va                         
+                   Day 1 Set 1  61.797      60.400      59.729     (59.511)     59.352+1  
+                 Total (both sets):     DNS
+      27  No  No            XS-A Gabriel N        2007 Subaru WRX Wago                         
+                   Day 1 Set 1 (68.894+1) 
+                 Total (both sets):     DNS
+      28  No  No             STX David S          2009 BMW 128i                                
+                   Day 1 Set 1  60.744+1    60.875     (59.751)     58.658+1    60.039+1  
+                 Total (both sets):     DNS
+      29  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  72.940      69.131      66.239      66.451      66.723    
+                 Total (both sets):     DNS
+      30  No Yes              AS Cyro M           2008 Honda 2008 Hond                         
+                   Day 1 Set 1 (64.138)   
+                 Total (both sets):     DNS
+      31  No Yes              AS Jeremy D         2008 Honda 2008 Hond                         
+                   Day 1 Set 1 (75.152)   
+                 Total (both sets):     DNS
+      41  No  No              DS Noel R           2018 Volkswagen Golf                         
+                   Day 1 Set 1 (66.492)     67.522    
+                 Total (both sets):     DNS
+      45  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  69.390+2    68.731+3  
+                 Total (both sets):     DNS
+      46  No Yes              FS Jason H          2014 Hyundai Genesis                         
+                   Day 1 Set 1  65.978+DNF  64.048+DNF (62.269)     62.704      61.638+1  
+                 Total (both sets):     DNS
+      47  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  63.939    
+                 Total (both sets):     DNS
+      51  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  69.802      68.147+1    67.014      66.375+DNF  68.457+DNF
+                 Total (both sets):     DNS
+      53  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  64.246    
+                 Total (both sets):     DNS
+      59  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  56.442    
+                 Total (both sets):     DNS
+      60  No  No           CAM-C Ron D            2019 Ford Shelby GT3                         
+                   Day 1 Set 1  67.386+DNF
+                 Total (both sets):     DNS
+      64  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  61.168      58.909      57.899      58.470+1    58.672+1  
+                 Total (both sets):     DNS
+      68  No  No              CP Steve M          1996 Ford Mustang GT                         
+                   Day 1 Set 1 (78.749)   
+                 Total (both sets):     DNS
+      69  No  No              EM Bill R           1984 Lotus 7                                 
+                   Day 1 Set 1 (68.120)   
+                 Total (both sets):     DNS
+      72  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  62.903      62.256      61.748      60.955      60.795+1  
+                 Total (both sets):     DNS
+      78  No  No             ESP Patrick C        1994 Mazda Miata                             
+                   Day 1 Set 1  61.347      61.262      60.949      60.421     (60.204)   
+                 Total (both sets):     DNS
+      80  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  72.428      69.280      68.689      67.623      67.330    
+                 Total (both sets):     DNS
+      81  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  59.578+3  
+                 Total (both sets):     DNS
+      84  No  No              HS Brian H          2007 Ford Focus                              
+                   Day 1 Set 1 (62.564)   
+                 Total (both sets):     DNS
+      94  No  No           CAM-T Joel D           1994 Ford Mustang                            
+                   Day 1 Set 1  61.091      58.995     (57.802)     58.040      57.905+2  
+                 Total (both sets):     DNS
+     109  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  60.155      59.744      59.554      58.996      59.289    
+                 Total (both sets):     DNS
+     113  No Yes              AM Joe D            car                                          
+                   Day 1 Set 1 (63.653+4) 
+                 Total (both sets):     DNS
+     117  No  No           CAM-T Josh D           1991 Ford Mustang GT                         
+                   Day 1 Set 1  70.010+DNF  65.873      64.962      64.149+1   (62.690)   
+                 Total (both sets):     DNS
+     119  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  71.186    
+                 Total (both sets):     DNS
+     128  No  No             STX Mary F           2009 BMW 128i                                
+                   Day 1 Set 1 (61.499)   
+                 Total (both sets):     DNS
+     138  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  68.735      66.900      66.376      64.783      64.941    
+                 Total (both sets):     DNS
+     147  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  65.119      64.276      64.379      65.001      63.682    
+                 Total (both sets):     DNS
+     551  No  No              AM Unknown D        Unknown car                                  
+                   Day 1 Set 1  63.121      61.834      60.701      61.574      61.735    
+                 Total (both sets):     DNS
+
+--------------------------------------------------------------------------------
+Overall ranking by raw time:
+Rank     Car#       Class Driver           Car                    Raw Time   Score
+   1       30          AS Cyro M           2008 Honda 2008 Hond        DNS 100.000
+   2       27        XS-A Gabriel N        2007 Subaru WRX Wago        DNS   0.000
+   3       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   0.000
+   4       45          AM Unknown D        Unknown car                 DNS   0.000
+   5       41          DS Noel R           2018 Volkswagen Golf        DNS   0.000
+   6       22          AM Unknown D        Unknown car                 DNS   0.000
+   7      551          AM Unknown D        Unknown car                 DNS   0.000
+   8      147          AM Unknown D        Unknown car                 DNS   0.000
+   9        1          AM Unknown D        Unknown car                 DNS   0.000
+  10       11          AM Unknown D        Unknown car                 DNS   0.000
+  11        2          FS Logan P          2002 Nissan Silvia          DNS   0.000
+  12       81          AM Unknown D        Unknown car                 DNS   0.000
+  13       69          EM Bill R           1984 Lotus 7                DNS   0.000
+  14       84          HS Brian H          2007 Ford Focus             DNS   0.000
+  15      128         STX Mary F           2009 BMW 128i               DNS   0.000
+  16      113          AM Joe D            car                         DNS   0.000
+  17       68          CP Steve M          1996 Ford Mustang GT        DNS   0.000
+  18       53          AM Unknown D        Unknown car                 DNS   0.000
+  19       47          AM Unknown D        Unknown car                 DNS   0.000
+  20       59          AM Unknown D        Unknown car                 DNS   0.000
+  21      119          AM Unknown D        Unknown car                 DNS   0.000
+  22       60       CAM-C Ron D            2019 Ford Shelby GT3        DNS   0.000
+  23      138          AM Unknown D        Unknown car                 DNS   0.000
+  24       24          AM Unknown D        Unknown car                 DNS   0.000
+  25       17          SM Jim L            1991 Toyota MR2 N/A         DNS   0.000
+  26       21          AM Unknown D        Unknown car                 DNS   0.000
+  27       29          AM Unknown D        Unknown car                 DNS   0.000
+  28       20          AM Unknown D        Unknown car                 DNS   0.000
+  29       14          FS Kiana L          2007 Nissan Altima          DNS   0.000
+  30        6          AM Unknown D        Unknown car                 DNS   0.000
+  31        5          CS Murray P         2017 Mazda MX-5             DNS   0.000
+  32        9        XS-A Jay Z            2020 Tesla Model 3 P        DNS   0.000
+  33       16          AM Unknown D        Unknown car                 DNS   0.000
+  34       12          BS Tom G            2017 Chevy Camaro SS        DNS   0.000
+  35      109          AM Unknown D        Unknown car                 DNS   0.000
+  36       94       CAM-T Joel D           1994 Ford Mustang           DNS   0.000
+  37       78         ESP Patrick C        1994 Mazda Miata            DNS   0.000
+  38      117       CAM-T Josh D           1991 Ford Mustang GT        DNS   0.000
+  39       80          AM Unknown D        Unknown car                 DNS   0.000
+  40       72          AM Unknown D        Unknown car                 DNS   0.000
+  41       46          FS Jason H          2014 Hyundai Genesis        DNS   0.000
+  42       28         STX David S          2009 BMW 128i               DNS   0.000
+  43       51          AM Unknown D        Unknown car                 DNS   0.000
+  44       64          AM Unknown D        Unknown car                 DNS   0.000
+  45       26          BS Mark T           2010 Aston Martin Va        DNS   0.000
+
+--------------------------------------------------------------------------------
+Rookie ranking by raw time:
+Rank     Car#       Class Driver           Car                    Raw Time   Score
+   0       30          AS Cyro M           2008 Honda 2008 Hond        DNS   0.000
+   2       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   0.000
+   3        2          FS Logan P          2002 Nissan Silvia          DNS   0.000
+   4      113          AM Joe D            car                         DNS   0.000
+   5       14          FS Kiana L          2007 Nissan Altima          DNS   0.000
+   6       46          FS Jason H          2014 Hyundai Genesis        DNS   0.000
+   7       26          BS Mark T           2010 Aston Martin Va        DNS   0.000
+
+--------------------------------------------------------------------------------
+Overall ranking by PAX:
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time   Score
+   1       94       CAM-T Joel D           1994 Ford Mustang           DNS  0.817       DNS 100.000
+   2        5          CS Murray P         2017 Mazda MX-5             DNS  0.809       DNS   0.000
+   3       26          BS Mark T           2010 Aston Martin Va        DNS  0.814       DNS   0.000
+   4       28         STX David S          2009 BMW 128i               DNS  0.816       DNS   0.000
+   5       84          HS Brian H          2007 Ford Focus             DNS  0.782       DNS   0.000
+   6      128         STX Mary F           2009 BMW 128i               DNS  0.816       DNS   0.000
+   7       46          FS Jason H          2014 Hyundai Genesis        DNS  0.806       DNS   0.000
+   8       78         ESP Patrick C        1994 Mazda Miata            DNS  0.839       DNS   0.000
+   9      117       CAM-T Josh D           1991 Ford Mustang GT        DNS  0.817       DNS   0.000
+  10        9        XS-A Jay Z            2020 Tesla Model 3 P        DNS  0.846       DNS   0.000
+  11       12          BS Tom G            2017 Chevy Camaro SS        DNS  0.814       DNS   0.000
+  12        2          FS Logan P          2002 Nissan Silvia          DNS  0.806       DNS   0.000
+  13       30          AS Cyro M           2008 Honda 2008 Hond        DNS  0.821       DNS   0.000
+  14       41          DS Noel R           2018 Volkswagen Golf        DNS  0.807       DNS   0.000
+  15       14          FS Kiana L          2007 Nissan Altima          DNS  0.806       DNS   0.000
+  16       17          SM Jim L            1991 Toyota MR2 N/A         DNS  0.854       DNS   0.000
+  17       27        XS-A Gabriel N        2007 Subaru WRX Wago        DNS  0.846       DNS   0.000
+  18       69          EM Bill R           1984 Lotus 7                DNS  0.898       DNS   0.000
+  19       31          AS Jeremy D         2008 Honda 2008 Hond        DNS  0.821       DNS   0.000
+  20       68          CP Steve M          1996 Ford Mustang GT        DNS  0.851       DNS   0.000
+  21      113          AM Joe D            car                         DNS  1.000       DNS   0.000
+  22        6          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  23      138          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  24       60       CAM-C Ron D            2019 Ford Shelby GT3        DNS  0.818       DNS   0.000
+  25       45          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  26       59          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  27      119          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  28       53          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  29       47          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  30       81          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  31       51          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  32       16          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  33       64          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  34       29          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  35       24          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  36       21          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  37       20          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  38       72          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  39        1          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  40       11          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  41       22          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  42      551          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  43      109          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  44       80          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+  45      147          AM Unknown D        Unknown car                 DNS  1.000       DNS   0.000
+
+--------------------------------------------------------------------------------
+Rookie ranking by PAX:
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time   Score
+   1       26          BS Mark T           2010 Aston Martin Va        DNS  0.814       DNS   0.000
+   2       46          FS Jason H          2014 Hyundai Genesis        DNS  0.806       DNS   0.000
+   3        2          FS Logan P          2002 Nissan Silvia          DNS  0.806       DNS   0.000
+   4       30          AS Cyro M           2008 Honda 2008 Hond        DNS  0.821       DNS   0.000
+   5       14          FS Kiana L          2007 Nissan Altima          DNS  0.806       DNS   0.000
+   6       31          AS Jeremy D         2008 Honda 2008 Hond        DNS  0.821       DNS   0.000
+   7      113          AM Joe D            car                         DNS  1.000       DNS   0.000
+
+--------------------------------------------------------------------------------
+Overall ranking by Group:
+
+Group: AS (A Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       30          AS Cyro M           2008 Honda 2008 Hond        DNS   .821       DNS  100.000 
+   2       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+
+Group: BS (B Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       26          BS Mark T           2010 Aston Martin Va        DNS   .814       DNS  100.000 
+   2       12          BS Tom G            2017 Chevy Camaro SS        DNS   .814       DNS    0.000 
+
+Group: CS (C Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1        5          CS Murray P         2017 Mazda MX-5             DNS   .809       DNS  100.000 
+
+Group: DS (D Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       41          DS Noel R           2018 Volkswagen Golf        DNS   .807       DNS  100.000 
+
+Group: FS (F Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       46          FS Jason H          2014 Hyundai Genesis        DNS   .806       DNS  100.000 
+   2        2          FS Logan P          2002 Nissan Silvia          DNS   .806       DNS    0.000 
+   3       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS    0.000 
+
+Group: HS (H Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       84          HS Brian H          2007 Ford Focus             DNS   .782       DNS  100.000 
+
+Group: STX (Street Touring X)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       28         STX David S          2009 BMW 128i               DNS   .816       DNS  100.000 
+   2      128         STX Mary F           2009 BMW 128i               DNS   .816       DNS    0.000 
+
+Group: SM (Street Modified)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       17          SM Jim L            1991 Toyota MR2 N/A         DNS   .854       DNS  100.000 
+
+Group: ESP (E Street Prepared)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       78         ESP Patrick C        1994 Mazda Miata            DNS   .839       DNS  100.000 
+
+Group: CP (C Prepared)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       68          CP Steve M          1996 Ford Mustang GT        DNS   .851       DNS  100.000 
+
+Group: AM (A Modified)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1      113          AM Joe D            car                         DNS  1.000       DNS  100.000 
+T  2        6          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+T  3      138          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+T  4       45          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+T  5       59          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+T  6      119          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+T  7       53          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+   8       47          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+   9       81          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  10       51          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  11       16          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  12       64          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  13       29          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  14       24          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  15       21          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  16       20          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  17       72          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  18        1          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  19       11          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  20       22          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  21      551          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  22      109          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  23       80          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+  24      147          AM Unknown D        Unknown car                 DNS  1.000       DNS    0.000 
+
+Group: EM (E Modified)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       69          EM Bill R           1984 Lotus 7                DNS   .898       DNS  100.000 
+
+Group: CAM-C (Classic American Muscle Contemporary)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       60       CAM-C Ron D            2019 Ford Shelby GT3        DNS   .818       DNS  100.000 
+
+Group: CAM-T (Classic American Muscle Traditional)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       94       CAM-T Joel D           1994 Ford Mustang           DNS   .817       DNS  100.000 
+   2      117       CAM-T Josh D           1991 Ford Mustang GT        DNS   .817       DNS    0.000 
+
+Group: STREET (Street classes)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1        5          CS Murray P         2017 Mazda MX-5             DNS   .809       DNS  100.000 
+T  2       26          BS Mark T           2010 Aston Martin Va        DNS   .814       DNS    0.000 
+T  3       84          HS Brian H          2007 Ford Focus             DNS   .782       DNS    0.000 
+T  4       46          FS Jason H          2014 Hyundai Genesis        DNS   .806       DNS    0.000 
+   5       12          BS Tom G            2017 Chevy Camaro SS        DNS   .814       DNS    0.000 
+   6        2          FS Logan P          2002 Nissan Silvia          DNS   .806       DNS    0.000 
+   7       30          AS Cyro M           2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+   8       41          DS Noel R           2018 Volkswagen Golf        DNS   .807       DNS    0.000 
+   9       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS    0.000 
+  10       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+
+Group: STOUR (Street Touring classes)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       28         STX David S          2009 BMW 128i               DNS   .816       DNS  100.000 
+   2      128         STX Mary F           2009 BMW 128i               DNS   .816       DNS    0.000 
+
+Group: LADIES (Ladies group)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS  100.000 
+
+Group: PREP/MOD (Prepared and Modified)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       78         ESP Patrick C        1994 Mazda Miata            DNS   .839       DNS  100.000 
+T  2       17          SM Jim L            1991 Toyota MR2 N/A         DNS   .854       DNS    0.000 
+   3       69          EM Bill R           1984 Lotus 7                DNS   .898       DNS    0.000 
+   4       68          CP Steve M          1996 Ford Mustang GT        DNS   .851       DNS    0.000 
+
+Group: CAM-XS (CAM and XS classes)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       94       CAM-T Joel D           1994 Ford Mustang           DNS   .817       DNS  100.000 
+T  2      117       CAM-T Josh D           1991 Ford Mustang GT        DNS   .817       DNS    0.000 
+   3        9        XS-A Jay Z            2020 Tesla Model 3 P        DNS   .846       DNS    0.000 
+   4       27        XS-A Gabriel N        2007 Subaru WRX Wago        DNS   .846       DNS    0.000 
+   5       60       CAM-C Ron D            2019 Ford Shelby GT3        DNS   .818       DNS    0.000 
+
+Group: XS-A (Xtreme Street A)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1        9        XS-A Jay Z            2020 Tesla Model 3 P        DNS   .846       DNS  100.000 
+   2       27        XS-A Gabriel N        2007 Subaru WRX Wago        DNS   .846       DNS    0.000 
+
+--------------------------------------------------------------------------------
+Rookie ranking by Group:
+
+Group: AS (A Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       30          AS Cyro M           2008 Honda 2008 Hond        DNS   .821       DNS  100.000 
+   2       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+
+Group: BS (B Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       26          BS Mark T           2010 Aston Martin Va        DNS   .814       DNS  100.000 
+
+Group: FS (F Street)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       46          FS Jason H          2014 Hyundai Genesis        DNS   .806       DNS  100.000 
+   2        2          FS Logan P          2002 Nissan Silvia          DNS   .806       DNS    0.000 
+   3       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS    0.000 
+
+Group: AM (A Modified)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1      113          AM Joe D            car                         DNS  1.000       DNS  100.000 
+
+Group: STREET (Street classes)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       26          BS Mark T           2010 Aston Martin Va        DNS   .814       DNS    0.000 
+T  2       46          FS Jason H          2014 Hyundai Genesis        DNS   .806       DNS    0.000 
+   3        2          FS Logan P          2002 Nissan Silvia          DNS   .806       DNS    0.000 
+   4       30          AS Cyro M           2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+   5       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS    0.000 
+   6       31          AS Jeremy D         2008 Honda 2008 Hond        DNS   .821       DNS    0.000 
+
+Group: LADIES (Ladies group)
+Rank     Car#       Class Driver           Car                    Raw Time  PAX #  PAX Time  Score
+T  1       14          FS Kiana L          2007 Nissan Altima          DNS   .806       DNS  100.000 
+
+--------------------------------------------------------------------------------
+Cone counts:
+Rank     Car# Driver           Cones
+   1       45 Unknown D           5
+   2      113 Joe D               4
+   3       81 Unknown D           3
+   3       28 David S             3
+   4       94 Joel D              2
+   4        9 Jay Z               2
+   4       64 Unknown D           2
+   5       46 Jason H             1
+   5       51 Unknown D           1
+   5      117 Josh D              1
+   5       72 Unknown D           1
+   5       26 Mark T              1
+   5        2 Logan P             1
+   5       27 Gabriel N           1
+   5       20 Unknown D           1
+
+--------------------------------------------------------------------------------
+

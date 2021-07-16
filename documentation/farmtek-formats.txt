@@ -1,0 +1,31 @@
+On all items below, 
+	"R" is used to show 0x80 byte
+	"v" shows digits in reverse order
+	"d" shows digits in normal order
+
+
+JAC Chrono:
+Start: Adddddd<13><10>
+Reset start: Sdddddd<13><10>
+Finish: Rvvvvvv<13><10>Bdddddd<13><10>
+Reset finish: R000000<13><10>
+
+R000000 == reset stop
+R001702 == 207.100 (elapsed time with digits reversed)
+S094937 == reset start (dddddd is start time stamp)
+A000000 == start time
+B000000 == stop time
+
+
+Tag Heur:
+<eye> hh:mm:ss.fff000<13>
+T           01 00:03:08.313000
+T           02 00:04:12.218000
+      (Subtraction yields 01:04.-95) = 63.905 seconds
+Reset (start or finish):
+T-          <previous trigger time stamp (start or finish)>
+
+JAC Normal:
+Start: No start trigger
+Finish: Rdddddd<13> Milliseconds in reverse order
+Reset: R000000<13>

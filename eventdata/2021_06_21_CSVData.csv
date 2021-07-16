@@ -1,0 +1,47 @@
+Car#,Mbr,Rky,Group,XGroup,Class,Team,PAX,Driver,First Name,Last Name,Car,Sponsor,RAW time,PAX time,PAX Score,Rookie PAX Score,RAW Score,Rookie RAW Score,Cones,Day1Set1 Runs,Day1Set2 Runs,Day1Set3 Runs,Xgroup-1:Name,Xgroup-1:Score,Xgroup-1:Rookie Score,Xgroup-2:Name,Xgroup-2:Score,Xgroup-2:Rookie Score,Xgroup-3:Name,Xgroup-3:Score,Xgroup-3:Rookie Score
+1,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,70.035;69.583;,,,AM,0,0
+2,No,Y,STREET,,FS,,    .806,Logan P,Logan,Pohl,2002 Nissan Silvia,        ,9999.000,10051.483,    .000,    .000,    .000,    .000,1,65.939+1;65.115;,,,FS,0,0,STREET,0,0
+5,No,N,STREET,,CS,,    .809,Murray P,Murray,Peterson,2017 Mazda MX-5,        ,9999.000,10046.279,    .000,    .000,    .000,    .000,0,46.767+DNF;60.870;59.120;59.815;58.441;,,,CS,100,0,STREET,100,0
+6,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,69.764+DNF;67.853;68.509+DNF;66.253;65.005;,,,AM,0,0
+9,No,N,CAM-XS,,XS-A,,    .846,Jay Z,Jay,Zelazo,2020 Tesla Model 3 P,        ,9999.000,10050.315,    .000,    .000,    .000,    .000,2,62.986;60.656;60.891;60.320+1;59.979+1;,,,CAM-XS,0,0,XS-A,100,0
+11,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,63.130;64.966;,,,AM,0,0
+12,No,N,STREET,,BS,,    .814,Tom G,Tom,Grzesiak,2017 Chevy Camaro SS,        ,9999.000,10051.186,    .000,    .000,    .000,    .000,0,52.560+DNF;65.816;65.623;64.111;64.176;,,,BS,0,0,STREET,0,0
+14,No,Y,STREET,LADIES,FS,,    .806,Kiana L,Kiana,Lawson,2007 Nissan Altima,        ,9999.000,10052.845,    .000,    .000,    .000,    .000,0,67.381;67.327;72.443;68.055;66.805;,,,FS,0,0,STREET,0,0,LADIES,100,100
+16,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,48.678+DNF;64.012;63.231;65.201;62.192;,,,AM,0,0
+17,No,N,PREP/MOD,,SM,,    .854,Jim L,Jim,Lawson,1991 Toyota MR2 N/A,        ,9999.000,10054.554,    .000,    .000,    .000,    .000,0,68.968;68.396;65.882;66.353;65.052;,,,SM,100,0,PREP/MOD,0,0
+20,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,1,49.144+DNF;62.029;62.880+1;60.839;59.907;,,,AM,0,0
+21,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,65.857;65.717;65.600;63.632;63.626;,,,AM,0,0
+22,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,63.931;63.016;,,,AM,0,0
+24,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,96.959+DNF;62.738;62.201;99.999+DNF;62.110;,,,AM,0,0
+26,No,Y,STREET,,BS,,    .814,Mark T,Mark,Terrio-Cameron,2010 Aston Martin Va,        ,9999.000,10047.442,    .000,    .000,    .000,    .000,1,61.797;60.400;59.729;59.511;59.352+1;,,,BS,100,100,STREET,0,0
+27,No,N,CAM-XS,,XS-A,,    .846,Gabriel N,Gabriel,Nguyen,2007 Subaru WRX Wago,        ,9999.000,10058.976,    .000,    .000,    .000,    .000,1,68.894+1;,,,CAM-XS,0,0,XS-A,0,0
+28,No,N,STOUR,,STX,,    .816,David S,David,Storwick,2009 BMW 128i,        ,9999.000,10047.757,    .000,    .000,    .000,    .000,3,60.744+1;60.875;59.751;58.658+1;60.039+1;,,,STX,100,0,STOUR,100,0
+29,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,72.940;69.131;66.239;66.451;66.723;,,,AM,0,0
+30,No,Y,STREET,,AS,,    .821,Cyro M,Cyro,Mandapat Datu,2008 Honda 2008 Hond,        ,9999.000,10051.657,    .000,    .000, 100.000,    .000,0,64.138;,,,AS,100,100,STREET,0,0
+31,No,Y,STREET,,AS,,    .821,Jeremy D,Jeremy,Datu,2008 Honda 2008 Hond,        ,9999.000,10060.700,    .000,    .000,    .000,    .000,0,75.152;,,,AS,0,0,STREET,0,0
+41,No,N,STREET,,DS,,    .807,Noel R,Noel,Rabey,2018 Volkswagen Golf,        ,9999.000,10052.659,    .000,    .000,    .000,    .000,0,66.492;67.522;,,,DS,100,0,STREET,0,0
+45,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,5,69.390+2;68.731+3;,,,AM,0,0
+46,No,Y,STREET,,FS,,    .806,Jason H,Jason,Humphreys,2014 Hyundai Genesis,        ,9999.000,10049.189,    .000,    .000,    .000,    .000,1,65.978+DNF;64.048+DNF;62.269;62.704;61.638+1;,,,FS,100,100,STREET,0,0
+47,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,63.939;,,,AM,0,0
+51,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,1,69.802;68.147+1;67.014;66.375+DNF;68.457+DNF;,,,AM,0,0
+53,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,64.246;,,,AM,0,0
+59,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,56.442;,,,AM,0,0
+60,No,N,CAM-XS,,CAM-C,,    .818,Ron D,Ron,Dyck,2019 Ford Shelby GT3,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,67.386+DNF;,,,CAM-C,100,0,CAM-XS,0,0
+64,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,2,61.168;58.909;57.899;58.470+1;58.672+1;,,,AM,0,0
+68,No,N,PREP/MOD,,CP,,    .851,Steve M,Steve,Michaluk,1996 Ford Mustang GT,        ,9999.000,10066.015,    .000,    .000,    .000,    .000,0,78.749;,,,CP,100,0,PREP/MOD,0,0
+69,No,N,PREP/MOD,,EM,,    .898,Bill R,Bill,Ridge,1984 Lotus 7,        ,9999.000,10060.172,    .000,    .000,    .000,    .000,0,68.120;,,,EM,100,0,PREP/MOD,0,0
+72,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,1,62.903;62.256;61.748;60.955;60.795+1;,,,AM,0,0
+78,No,N,PREP/MOD,,ESP,,    .839,Patrick C,Patrick,Clifford,1994 Mazda Miata,        ,9999.000,10049.511,    .000,    .000,    .000,    .000,0,61.347;61.262;60.949;60.421;60.204;,,,ESP,100,0,PREP/MOD,100,0
+80,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,72.428;69.280;68.689;67.623;67.330;,,,AM,0,0
+81,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,3,59.578+3;,,,AM,0,0
+84,No,N,STREET,,HS,,    .782,Brian H,Brian,Hemming,2007 Ford Focus,        ,9999.000,10047.925,    .000,    .000,    .000,    .000,0,62.564;,,,HS,100,0,STREET,0,0
+94,No,N,CAM-XS,,CAM-T,,    .817,Joel D,Joel,Dyck,1994 Ford Mustang,        ,9999.000,10046.224, 100.000,    .000,    .000,    .000,2,61.091;58.995;57.802;58.040;57.905+2;,,,CAM-T,100,0,CAM-XS,100,0
+109,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,60.155;59.744;59.554;58.996;59.289;,,,AM,0,0
+113,No,Y,AM,,AM,,   1.000,Joe D,Joe,Driver,car,        ,9999.000,10070.653,    .000,    .000,    .000,    .000,4,63.653+4;,,,AM,100,100
+117,No,N,CAM-XS,,CAM-T,,    .817,Josh D,Josh,Dyck,1991 Ford Mustang GT,        ,9999.000,10050.218,    .000,    .000,    .000,    .000,1,70.010+DNF;65.873;64.962;64.149+1;62.690;,,,CAM-T,0,0,CAM-XS,0,0
+119,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,71.186;,,,AM,0,0
+128,No,N,STOUR,,STX,,    .816,Mary F,Mary,Fischer,2009 BMW 128i,        ,9999.000,10049.183,    .000,    .000,    .000,    .000,0,61.499;,,,STX,0,0,STOUR,0,0
+138,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,68.735;66.900;66.376;64.783;64.941;,,,AM,0,0
+147,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,65.119;64.276;64.379;65.001;63.682;,,,AM,0,0
+551,No,N,AM,,AM,,   1.000,Unknown D,Unknown,Driver,Unknown car,        ,9999.000,19998.000,    .000,    .000,    .000,    .000,0,63.121;61.834;60.701;61.574;61.735;,,,AM,0,0
+

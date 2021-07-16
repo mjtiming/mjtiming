@@ -1,0 +1,34 @@
+<style>
+/* Title */
+h1		{ background-color: #FF0000}
+
+/* Scoring item (pax times, raw times, ... */
+.hdr1		{ background-color: #FF0000}
+
+/* Column names */
+.hdr2		{ background-color: #18F000}
+
+/* group names (e.g. Stock), Run times header */
+.hdr3		{ background-color: #CCF7FE; width:20%}
+
+/* driver names and times */
+.data		{ background-color: #06DCFB}
+
+/* run times */
+.data2		{ background-color: #06ffFB}
+
+.blank		{ background-color: #000000}
+
+/* highlighted run time or score */
+.highlight	{ background-color: #FF8800}
+
+.row2  		{ background-color: #8CEFFD}
+.row1   	{ background-color: #06DCFB}
+
+
+.hdr		{ background-color: #06DCFB}
+
+th		{ font-family: Arial; font-size: 100%; font-weight: bold; }
+tr		{ font-family: Arial; font-size: 70%; }
+body		{font-family: Arial; font-size: 50%; background-color: #486386 }
+</style>

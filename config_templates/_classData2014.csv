@@ -1,0 +1,168 @@
+Class,PAX,Description,Group,Display Order
+SS,0.843,Super Stock Street,Stock,1
+AS,0.833,A Stock Street,Stock,2
+BS,0.831,B Stock Street,Stock,3
+CS,0.821,C Stock Street,Stock,4
+DS,0.815,D Stock Street,Stock,5
+ES,0.814,E Stock Street,Stock,6
+FS,0.818,F Stock Street,Stock,7
+GS,0.806,G Stock Street,Stock,8
+HS,0.797,H Stock Street,Stock,9
+SSR,0.86,Super Stock,Stock,10
+ASR,0.848,A Stock,Stock,11
+BSR,0.845,B Stock,Stock,12
+CSR,0.834,C Stock,Stock,13
+DSR,0.825,D Stock,Stock,14
+ESR,0.828,E Stock,Stock,15
+FSR,0.83,F Stock,Stock,16
+GSR,0.812,G Stock,Stock,17
+HSR,0.804,H Stock,Stock,18
+STF,0.801,Street Touring FWD,Touring,19
+STC,0.824,Street Touring C,Touring,20
+STS,0.829,Street Touring S,Touring,21
+STR,0.838,Street Touring R,Touring,22
+STX,0.827,Street Touring X,Touring,23
+STU,0.846,Street Touring U,Touring,24
+SM,0.87,Street Modified,Street Modified,25
+SMF,0.851,Street Modified F,Street Modified,26
+SSM,0.882,Super Street Modified,Street Modified,27
+SSP,0.872,S Street Prepared,Street Prepared,28
+ASP,0.866,A Street Prepared,Street Prepared,29
+BSP,0.863,B Street Prepared,Street Prepared,30
+CSP,0.861,C Street Prepared,Street Prepared,31
+DSP,0.855,D Street Prepared,Street Prepared,32
+ESP,0.849,E Street Prepared,Street Prepared,33
+FSP,0.839,F Street Prepared,Street Prepared,34
+XP,0.906,X Prepared,Prepared,35
+BP,0.881,B Prepared,Prepared,36
+CP,0.864,C Prepared,Prepared,37
+DP,0.879,D Prepared,Prepared,38
+EP,0.876,E Prepared,Prepared,39
+FP,0.883,F Prepared,Prepared,40
+GP,0.85,G Prepared,Prepared,41
+AM,1,A Modified,Modified,42
+BM,0.965,B Modified,Modified,43
+CM,0.922,C Modified,Modified,44
+DM,0.92,D Modified,Modified,45
+EM,0.926,E Modified,Modified,46
+FM,0.924,F Modified,Modified,47
+FSAE,0.989,Formula SAE,Formula,48
+CAM,0.83,Classic American Muscle,CAM,49
+SSL,0.843,Super Stock Street,Stock,50
+ASL,0.833,A Stock Street,Stock,51
+BSL,0.831,B Stock Street,Stock,52
+CSL,0.821,C Stock Street,Stock,53
+DSL,0.815,D Stock Street,Stock,54
+ESL,0.814,E Stock Street,Stock,55
+FSL,0.818,F Stock Street,Stock,56
+GSL,0.806,G Stock Street,Stock,57
+HSL,0.797,H Stock Street,Stock,58
+SSRL,0.86,Super Stock,Stock,59
+ASRL,0.848,A Stock,Stock,60
+BSRL,0.845,B Stock,Stock,61
+CSRL,0.834,C Stock,Stock,62
+DSRL,0.825,D Stock,Stock,63
+ESRL,0.828,E Stock,Stock,64
+FSRL,0.83,F Stock,Stock,65
+GSRL,0.812,G Stock,Stock,66
+HSRL,0.804,H Stock,Stock,67
+STFL,0.801,Street Touring FWD,Touring,68
+STCL,0.824,Street Touring C,Touring,69
+STSL,0.829,Street Touring S,Touring,70
+STRL,0.838,Street Touring R,Touring,71
+STXL,0.827,Street Touring X,Touring,72
+STUL,0.846,Street Touring U,Touring,73
+SML,0.87,Street Modified,Street Modified,74
+SMFL,0.851,Street Modified F,Street Modified,75
+SSML,0.882,Super Street Modified,Street Modified,76
+SSPL,0.872,S Street Prepared,Street Prepared,77
+ASPL,0.866,A Street Prepared,Street Prepared,78
+BSPL,0.863,B Street Prepared,Street Prepared,79
+CSPL,0.861,C Street Prepared,Street Prepared,80
+DSPL,0.855,D Street Prepared,Street Prepared,81
+ESPL,0.849,E Street Prepared,Street Prepared,82
+FSPL,0.839,F Street Prepared,Street Prepared,83
+XPL,0.906,X Prepared,Prepared,84
+BPL,0.881,B Prepared,Prepared,85
+CPL,0.864,C Prepared,Prepared,86
+DPL,0.879,D Prepared,Prepared,87
+EPL,0.876,E Prepared,Prepared,88
+FPL,0.883,F Prepared,Prepared,89
+GPL,0.85,G Prepared,Prepared,90
+AML,1,A Modified,Modified,91
+BML,0.965,B Modified,Modified,92
+CML,0.922,C Modified,Modified,93
+DML,0.92,D Modified,Modified,94
+EML,0.926,E Modified,Modified,95
+FML,0.924,F Modified,Modified,96
+FSAEL,0.989,Formula SAE,Formula,97
+CAML,0.83,Classic American Muscle,CAM,98
+TSM,0.84825,Street Modified,Street Modified,99
+TSMF,0.829725,Street Modified F,Street Modified,100
+TSSM,0.85995,Super Street Modified,Street Modified,101
+TSSP,0.8502,S Street Prepared,Street Prepared,102
+TASP,0.84435,A Street Prepared,Street Prepared,103
+TBSP,0.841425,B Street Prepared,Street Prepared,104
+TCSP,0.839475,C Street Prepared,Street Prepared,105
+TDSP,0.833625,D Street Prepared,Street Prepared,106
+TESP,0.827775,E Street Prepared,Street Prepared,107
+TFSP,0.818025,F Street Prepared,Street Prepared,108
+TXP,0.88335,X Prepared,Prepared,109
+TBP,0.858975,B Prepared,Prepared,110
+TCP,0.8424,C Prepared,Prepared,111
+TDP,0.857025,D Prepared,Prepared,112
+TEP,0.8541,E Prepared,Prepared,113
+TFP,0.860925,F Prepared,Prepared,114
+TGP,0.82875,G Prepared,Prepared,115
+TAM,0.975,A Modified,Modified,116
+TBM,0.940875,B Modified,Modified,117
+TCM,0.89895,C Modified,Modified,118
+TDM,0.897,D Modified,Modified,119
+TEM,0.90285,E Modified,Modified,120
+TFM,0.9009,F Modified,Modified,121
+TFSAE,0.964275,Formula SAE,Formula,122
+UNK1,0.8,Unknown1,Unknown1,123
+UNK2,0.8,Unknown2,Unknown2,124
+UNK3,0.8,Unknown3,Unknown3,125
+AWD,1,All Wheel Drive,All Wheel Drive,126
+FWD,1,Front Wheel Drive,Front Wheel Drive,127
+RWD,1,Rear Wheel Drive,Rear Wheel Drive,128
+2WD,1,Two Wheel Drive,Two Wheel Drive,129
+4WD,1,Four Wheel Drive,Four Wheel Drive,130
+OPAX,3,Open PAX class,Open PAX class,131
+LPAX,1,Ladies PAX class,Ladies PAX class,132
+RTF,1,Road Tire FWD,Road Tire FWD,133
+RTR,1,Road Tire RWD,Road Tire RWD,134
+RTA,1,Road Tire AWD,Road Tire AWD,135
+STOCK,1,Stock classes,Stock classes,136
+STOUR,1,Street Touring classes,Street Touring classes,137
+SPREP,1,Street prepared classes,Street prepared classes,138
+SMOD,1,Street Modified classes,Street Modified classes,139
+PREP,1,Prepared classes,Prepared classes,140
+MOD,1,Modified classes,Modified classes,141
+STSTOCK,1,Stock street tire classes,Stock street tire classes,142
+STOTHER,1,Street Tire Other classes,Street Tire Other classes,143
+STINDEX,1,Street Tire Index,Street Tire Index,144
+GROUP1,1,All stock classes,Stock classes,145
+GROUP2,1,All Street Prepared classes,Street Prepared classes,146
+GROUP3,1,All prepared and modified classes,Prepared and Modified classes,147
+GROUP4,1,All Street Touring classes,Street Touring classes,148
+GROUP5,1,SM/SSM/SMF,SS/SSM/SMF classes,149
+GROUP6,1,Ladies class,Ladies class,150
+GROUP7,1,Street Tire Index class,Street Tire Index class,151
+RAW,1,RAW team,RAW Team,152
+PAX,1,PAX Team,PAX Team,153
+Novice,1,Novice drivers,Novice,154
+Open Pax,3,Open PAX group,Open PAX class,155
+Road,1,Road tire group,Road tire group,156
+Race,1,Race tire group,Race tire group,157
+Touring,1,Street Touring group,Street Touring classes,158
+Ladies,1,Ladies group,Ladies group,159
+Stock,1,Stock group,Stock classes,160
+N,1,Novice in Axeware,Novice,161
+T,1,Touring in Axware,Touring,162
+R,1,Road in Axeware,Road,163
+H,1,Race in Axware,Race,164
+X,1,OPAX in Axware,Open Pax,165
+S,1,Stock in Axware,Stock,166
+L,1,Ladies in Axware,Ladies,167
