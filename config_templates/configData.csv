@@ -24,5 +24,5 @@ runheats,class,Group heats by class or group
 ClassAsGroup,No,Score driver's class as a group
 LapCount,1,Number of finish triggers before run is complete
 serialTimeoutMS,100,Milliseconds timeout between characters when reading timer COM port
-ConePenalySeconds,2,
-AC4Protocol,No,
+ConePenalySeconds,2,Change the standard 2 second cone penalty to smoe other value
+AC4Protocol,No,IF set to yes, then aswitch to AC4 protocol (fininsh triggers only)
