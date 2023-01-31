@@ -19,10 +19,10 @@ using System.IO;
 using System.Text;
 namespace RaceBeam
 {
-	class rbscore
+	class Mjscore
 	{
 		// ---------------------------------------------------------------------------
-		public static void usage()
+		public static void Usage()
 		{
 			Console.WriteLine("Usage: mjCmdLineScore -day1 <day1 date> -day2 <day2 date> -bestsinglerun -set1only -set2only -runtimes -rawtimes -paxtimes -teams -conecounts -classtimes -rookie -maxofficialruns <# runs> -classfile <path to class.csv file> -title <string> -path <path to event data folder>");
 			Environment.Exit(0);
@@ -30,16 +30,17 @@ namespace RaceBeam
 		// ---------------------------------------------------------------------------
 		public static void Main(string[] args)
 		{
-			// parse command line arguments
-			// default to 1 day scoring, today's date
-			string day1Name = DateTime.Now.ToString("yyyy_MM_dd");
-			var argblock = new scoreArgs();
-			argblock.eventFolder = ".";  // default to current folder
-			for (int i = 0; i < args.Length; i++)
+            // parse command line arguments
+            // default to 1 day scoring, today's date
+            var argblock = new scoreArgs
+            {
+                eventFolder = "."  // default to current folder
+            };
+            for (int i = 0; i < args.Length; i++)
 			{
 				if ((args[i] == "-h") | (args[i] == "-help") | (args[i] == "-?"))
 				{
-					usage();
+					Usage();
 				}
 				else if (args[i] == "-day1")
 				{
@@ -128,10 +129,10 @@ namespace RaceBeam
 				}
 				else
 				{
-					usage();
+					Usage();
 				}
 			}
-			string results = "";
+			string results;
 			if (argblock.title != "")
 			{
 				results = argblock.title + "\r\n";

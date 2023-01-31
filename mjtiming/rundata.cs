@@ -434,7 +434,7 @@ namespace RaceBeam
             string stophold = configData.GetField("StopHoldoffMS", "Value").ToUpperInvariant();
             string lapCount = configData.GetField("LapCount", "Value").ToUpperInvariant();
 
-            returnTime.penalty = "";
+			returnTime.penalty = "";
             returnTime.time = "";
 			
 			noTime.penalty = "";

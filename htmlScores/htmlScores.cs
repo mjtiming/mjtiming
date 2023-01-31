@@ -15,6 +15,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Diagnostics;
 
 namespace RaceBeam  // this is required to get easy reference to the datatypes
 {
@@ -57,6 +58,11 @@ namespace RaceBeam  // this is required to get easy reference to the datatypes
 			argblock.day1 = DateTime.Now.ToString("yyyy_MM_dd");
 			string configFilename;
 			string configFolder = argblock.configFolder;
+
+			configFolder = Process.GetCurrentProcess().MainModule.FileName;
+			configFolder = Path.GetDirectoryName(configFolder);
+			configFolder = configFolder + "\\..\\config";
+
 			configFilename =  configFolder + "\\configData.csv";
 			string err = configData.LoadData(configFilename,',',"Parameter");
 			if (err != "")

@@ -1771,17 +1771,24 @@ namespace RaceBeam
 			{
 				return DNFvalue;
 			}
+			int conePenalty = 2;
+			string conePen = configData.GetField("ConePenalySeconds", "Value");
+			if (Int32.TryParse(conePen, out conePenalty) == false)
+			{
+				conePenalty = 2;
+			}
+
 			int cones;
 			double totalTime = rawtime * PAX;
 			if (int.TryParse(penalty, out cones) == true)
 			{
 				if (ConesGetPAXed == true)
 				{
-					totalTime = (rawtime + (cones * 2.0)) * PAX;
+					totalTime = (rawtime + (cones * conePenalty)) * PAX;
 				}
 				else
 				{
-					totalTime = (rawtime * PAX) + (cones * 2.0);
+					totalTime = (rawtime * PAX) + (cones * conePenalty);
 				}
 			}
 			return totalTime;

@@ -24,3 +24,5 @@ runheats,class,Group heats by class or group
 ClassAsGroup,No,Score driver's class as a group
 LapCount,1,Number of finish triggers before run is complete
 serialTimeoutMS,100,Milliseconds timeout between characters when reading timer COM port
+ConePenalySeconds,2,
+AC4Protocol,No,

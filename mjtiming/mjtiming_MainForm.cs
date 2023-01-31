@@ -298,6 +298,7 @@ namespace RaceBeam
 				this.BeginInvoke(new InvokeTimeEvent(TimeEvent), new object[] {type,time});
 				return;
 			}
+
 			if (type == "barcode")
 			{
 				// find matching barcode
@@ -384,6 +385,24 @@ namespace RaceBeam
 			}
 			else
 			{
+				// AC4 needs to generate 2 events here -- start with time 000000 and finish with given time
+				bool AC4Protocol = false;  // weird device that only sends finish triggers
+				string AC4proto = configData.GetField("AC4Protocol", "Value");
+				AC4proto = AC4proto.ToUpperInvariant();
+				if ((string.IsNullOrEmpty(AC4proto) == false) && (AC4proto.StartsWith("Y") == true))
+				{
+					AC4Protocol = true;
+				}
+				else
+				{
+					AC4Protocol = false;
+				}
+				if (AC4Protocol == true)
+                {
+					timingData.TimingEvent("A", "000000");  // Generate a false start trigger with time 0
+					type = "B";  // Convert event to a finish trigger and fall thru
+				}
+
 				PenaltyAndTime msg = timingData.TimingEvent(type,time);
 				if (string.IsNullOrEmpty(msg.time) == false)
 				{

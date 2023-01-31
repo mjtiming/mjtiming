@@ -32,21 +32,26 @@ namespace RaceBeam
 			if (File.Exists(configFilename) == false)
 			{
 				File.Copy(templateFolder + "\\configData.csv", configFolder + "\\configData.csv", false);
-				// Copy the others too
+			}
+			// Copy the others too
+			if (File.Exists(configFolder + "\\_driverData.csv") == false)
+			{
 				File.Copy(templateFolder + "\\_driverData.csv", configFolder + "\\_driverData.csv", false);
+			}
+			if (File.Exists(configFolder + "\\_classData.csv") == false)
+			{
 				File.Copy(templateFolder + "\\_classData.csv", configFolder + "\\_classData.csv", false);
+			}
+			if (File.Exists(configFolder + "\\_webStyle.txt") == false)
+			{
 				File.Copy(templateFolder + "\\_webStyle.txt", configFolder + "\\_webStyle.txt", false);
-				
 			}
 			// Check for scoring style file
 			if (File.Exists(configFolder + "\\_scoreStyles.css") == false)
 			{
 				File.Copy(templateFolder + "\\_scoreStyles.css", configFolder + "\\_scoreStyles.css", false);
 			}
-			if (File.Exists(configFolder + "\\_driverData.csv") == false)
-			{
-				File.Copy(templateFolder + "\\_driverData.csv", configFolder + "\\_driverData.csv", false);
-			}
+
 			string err = configData.LoadData(configFilename,',',"Parameter");
 			if (err != "")
 			{

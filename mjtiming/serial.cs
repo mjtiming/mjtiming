@@ -44,6 +44,10 @@ Start: No start trigger
 Finish: Rdddddd<13> Milliseconds in reverse order
 Reset: R000000<13>
 
+AC4 timer:
+Start: not reported
+Finish: 0x80[hex80]fffsss[cr][lf] or [hex80]fffssm[cr][lf]
+We convert this to an R (reset) event and let the TimeEvent handler sort it out
  */
 namespace RaceBeam
 {
@@ -64,9 +68,10 @@ namespace RaceBeam
 		string TimerPortName = "";
 		string barcodePortName = "";
 		bool reverseDisplayDigits = false;
+		
 
-        // Do we send a penalty to the display (MJTiming display only handles this)
-        readonly bool sendPenalty = false;
+		// Do we send a penalty to the display (MJTiming display only handles this)
+		readonly bool sendPenalty = false;
         readonly CSVData configData = null;
 
         // We use this to display messages to the user
@@ -107,6 +112,7 @@ namespace RaceBeam
 				{
 					reverseDisplayDigits = false;
 				}
+				
 				string timeoutString = configData.GetField("serialTimeoutMS", "Value");
                 if (Int32.TryParse(timeoutString, out int readTimeout) == false)
                 {
