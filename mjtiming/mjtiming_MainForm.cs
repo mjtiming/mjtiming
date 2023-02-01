@@ -398,20 +398,34 @@ namespace RaceBeam
 					AC4Protocol = false;
 				}
 				if (AC4Protocol == true)
-                {
-					timingData.TimingEvent("A", "000000");  // Generate a false start trigger with time 0
-					type = "B";  // Convert event to a finish trigger and fall thru
-				}
-
-				PenaltyAndTime msg = timingData.TimingEvent(type,time);
-				if (string.IsNullOrEmpty(msg.time) == false)
 				{
-                    if (double.TryParse(msg.time, out double dval) == true)
-                    {
-                        timer.DisplayTime(msg);
-                    }
-                }
-				RefreshView();
+					timingData.TimingEvent("A", "000000");  // Generate a false start trigger with time 0
+					type = "B";  // Convert event to a finish trigger
+					if (string.IsNullOrEmpty(time) == false)
+					{
+						char[] charArray = time.ToCharArray();
+						Array.Reverse(charArray);
+						string revTime = new string(charArray);
+						PenaltyAndTime revmsg = timingData.TimingEvent(type, revTime);
+						if (double.TryParse(revTime, out double dval) == true)
+						{
+							timer.DisplayTime(revmsg);
+						}
+					}
+				}
+				else
+				{
+					// normal time event (not AC4)
+					PenaltyAndTime msg = timingData.TimingEvent(type, time);
+					if (string.IsNullOrEmpty(msg.time) == false)
+					{
+						if (double.TryParse(msg.time, out double dval) == true)
+						{
+							timer.DisplayTime(msg);
+						}
+					}
+					RefreshView();
+				}
 			}
 		}
 		// ----------------------------------------------------------------------
