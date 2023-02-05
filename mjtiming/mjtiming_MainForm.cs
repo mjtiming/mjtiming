@@ -412,6 +412,7 @@ namespace RaceBeam
 							timer.DisplayTime(revmsg);
 						}
 					}
+					RefreshView();
 				}
 				else
 				{
