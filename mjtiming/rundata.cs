@@ -347,52 +347,53 @@ namespace RaceBeam
 		// Reads in the timing data from the given file
 		public void LoadData(string filename)
 		{
-            string sval;
+			string sval;
+			uint uval = 0;
 
-            new CSVData().LoadData(filename, ',',"index");
+			var rdata = new CSVData();
+			rdata.LoadData(filename, ',', "index");
 			_data.Clear();
-			for (int i = 0; i < new CSVData().Length(); i++)
+			for (int i = 0; i < rdata.Length(); i++)
 			{
-                var x = new Runtime
-                {
-                    index = i
-                };
-                string indexS = i.ToString();
-				x._datetime = new CSVData().GetField(indexS, "datetime");
-				x._datetime_stop = new CSVData().GetField(indexS, "datetime_stop");
-				x._car_number = new CSVData().GetField(indexS, "car_number");
-				
-				sval = new CSVData().GetField(indexS, "start_time");
-                if (UInt32.TryParse(sval, out _) == true)
+				var x = new Runtime();
+				x.index = i;
+				string indexS = i.ToString();
+				x._datetime = rdata.GetField(indexS, "datetime");
+				x._datetime_stop = rdata.GetField(indexS, "datetime_stop");
+				x._car_number = rdata.GetField(indexS, "car_number");
+
+				sval = rdata.GetField(indexS, "start_time");
+				if (UInt32.TryParse(sval, out uval) == true)
 				{
 					x._start_time = sval;
 				}
-				sval = new CSVData().GetField(indexS, "split_time");
-				if (UInt32.TryParse(sval, out _) == true)
+				sval = rdata.GetField(indexS, "split_time");
+				if (UInt32.TryParse(sval, out uval) == true)
 				{
 					x._split_time = sval;
 				}
-				sval = new CSVData().GetField(indexS, "stop_time");
-				if (UInt32.TryParse(sval, out _) == true)
+				sval = rdata.GetField(indexS, "stop_time");
+				if (UInt32.TryParse(sval, out uval) == true)
 				{
 					x._stop_time = sval;
 				}
-				sval = new CSVData().GetField(indexS, "run_time");
+				sval = rdata.GetField(indexS, "run_time");
 				sval = sval.Trim();
 				if (sval != "")
 				{
-                    if (Double.TryParse(sval, out _) == false)
-                    {
-                        sval = "0";
-                    }
-                }
+					double tm;
+					if (Double.TryParse(sval, out tm) == false)
+					{
+						sval = "0";
+					}
+				}
 				x._run_time = sval;
-				x._penalty = new CSVData().GetField(indexS, "penalty");
-				x._run_number = new CSVData().GetField(indexS, "run_number");
-				x._set = new CSVData().GetField(indexS, "set");
+				x._penalty = rdata.GetField(indexS, "penalty");
+				x._run_number = rdata.GetField(indexS, "run_number");
+				x._set = rdata.GetField(indexS, "set");
 				if (x._set == "")
 				{
-					x._set = new CSVData().GetField(indexS, "day");
+					x._set = rdata.GetField(indexS, "day");
 				}
 				if (x._set == "")
 				{
@@ -405,20 +406,18 @@ namespace RaceBeam
 					Carchange(x.index, true);
 				}
 			}
-			
+
 			for (int i = _data.Count; i < maxRunData; i++)
 			{
-                var x = new Runtime
-                {
-                    index = i
-                };
-                _data.Add(x);
+				var x = new Runtime();
+				x.index = i;
+				_data.Add(x);
 			}
 		}
 		// -------------------------------------------------------------------
 		// An incoming timing event
 		// Returns time string to send to display, empty string if nothing to show
-		
+
 		public static bool isReversed = false;
 		
 		public PenaltyAndTime TimingEvent(string type, string time)
