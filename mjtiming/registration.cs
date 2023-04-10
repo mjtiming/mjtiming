@@ -761,7 +761,7 @@ namespace RaceBeam
 						{
 							carnum = report.GetField(reportrow.ToString(),"No.");
 						}
-						carnum = carnum.TrimStart('0');	// trim leading zeroes (confusing for timing)
+						// carnum = carnum.TrimStart('0');	// trim leading zeroes (confusing for timing)
 						if (string.IsNullOrEmpty(carnum) == true)
 						{
 							carnum = FindNumber().ToString();
