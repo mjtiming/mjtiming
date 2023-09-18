@@ -13,6 +13,19 @@ Things to do (bugs, deficiencies, wish list)
 	Bug: OPAX group (1st 3 runs) applies everywhere, not just OPAX group scores
 	Scoring -- show DNFs for rookies and non-rookies
 
+September 18, 2023
+Added RAWtoFirst and RAWtoNext times in the PAX scoring.
+
+April 10, 2023
+	Do not trim leading zeroes from car numbers on import
+
+March 2, 2023
+	Emergency release
+	Previous version of mjtiming lost all timing data if exited and reentered.
+
+February 1, 2023
+	Add ability to handle AC4 protocol (only finish triggers are received)
+
 September 29, 2020
 	Changed set number selection from radio buttons to a drop down seection to prevent
 	accidental changes.

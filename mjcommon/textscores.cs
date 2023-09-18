@@ -329,12 +329,13 @@ namespace RaceBeam
 			
 			results += String.Format("Overall ranking by PAX:\r\n");
 			rookieResults += String.Format("Rookie ranking by PAX:\r\n");
-			string hdr = String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8}  {6,5} {7,9} {8,7}\r\n",
-			                           "Rank","Car#","Class","Driver","Car","Raw Time","PAX #", "PAX Time", "Score");
-			results += hdr;
+            string hdr = String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8}  {6,5} {7,9} {8,7} {9,8} {10,8}\r\n",
+                                       "Rank", "Car#", "Class", "Driver", "Car", "Raw Time", "PAX #", "PAX Time", "Score", "RAWtoNext", "RAWtoFirst");
+
+            results += hdr;
 			rookieResults += hdr;
-			
-			foreach (KeyValuePair<string, scoreCalcs.driverScoreData> driver in myList)
+
+            foreach (KeyValuePair<string, scoreCalcs.driverScoreData> driver in myList)
 			{
 				string driverName = driver.Value.firstName + " " + driver.Value.lastName.Substring(0,1);
 				if (showLastName)
@@ -345,7 +346,7 @@ namespace RaceBeam
 						driverName = driverName.Substring(0,16);
 					}
 				}
-				results += String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8:#.000}  {6,5:#0.000} {7,9:#.000} {8,7:#0.000}\r\n",
+                results += String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8:#.000}  {6,5:#0.000} {7,9:#.000} {8,7:#0.000} {9,8:#.000} {10,11:#.000}\r\n",
 				                         driver.Value.scoreData.PAXrank,
 				                         driver.Value.number,
 				                         driver.Value.carClass,
@@ -354,11 +355,13 @@ namespace RaceBeam
 				                         driver.Value.scoreData.bestRAW < scoreCalcs.DNFvalue ? driver.Value.scoreData.bestRAW.ToString("#.000") : "DNS",
 				                         driver.Value.pax,
 				                         driver.Value.scoreData.bestPAX < scoreCalcs.DNFvalue ? driver.Value.scoreData.bestPAX.ToString("#.000") : "DNS",
-				                         driver.Value.scoreData.PAXscore
-				                        );
+				                         driver.Value.scoreData.PAXscore,
+										 driver.Value.scoreData.RAWtoNext,
+										 driver.Value.scoreData.RAWtoFirst
+										);
 				if (driver.Value.rookie)
 				{
-					rookieResults += String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8:#.000}  {6,5:#0.000} {7,9:#.000} {8,7:#0.000}\r\n",
+					rookieResults += String.Format("{0,4} {1,8} {2,11} {3,-16} {4,-22} {5,8:#.000}  {6,5:#0.000} {7,9:#.000} {8,7:#0.000} {9,8:#.000} {10,11:#.000}\r\n",
 					                               driver.Value.scoreData.PAXRookieRank,
 					                               driver.Value.number,
 					                               driver.Value.carClass,
@@ -367,8 +370,10 @@ namespace RaceBeam
 					                               driver.Value.scoreData.bestRAW < scoreCalcs.DNFvalue ? driver.Value.scoreData.bestRAW.ToString("#.000") : "DNS",
 					                               driver.Value.pax,
 					                               driver.Value.scoreData.bestPAX < scoreCalcs.DNFvalue ? driver.Value.scoreData.bestPAX.ToString("#.000") : "DNS",
-					                               driver.Value.scoreData.PAXrookieScore
-					                              );
+					                               driver.Value.scoreData.PAXrookieScore,
+												   driver.Value.scoreData.RookieRAWtoNext,
+												   driver.Value.scoreData.RookieRAWtoFirst
+												  );
 				}
 			}
 			if (args.showRookie)
