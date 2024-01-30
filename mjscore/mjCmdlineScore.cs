@@ -150,7 +150,7 @@ namespace RaceBeam
 			}
 			argblock.writeCSV = true;
 			results += textScores.textScore(argblock);
-			Console.WriteLine(results);
+			File.WriteAllText("./results.txt", results);
 			return;
 		}
 	}
