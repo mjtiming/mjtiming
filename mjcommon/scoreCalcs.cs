@@ -56,6 +56,7 @@ namespace RaceBeam
 		public bool showRookie;			// Applies to raw/pax/class
 		public bool writeCSV;
 		public string title;
+		public string outFile;
 		public scoreArgs()
 		{
 			eventFolder = "";
@@ -77,6 +78,7 @@ namespace RaceBeam
 			showRookie = false;
 			writeCSV = false;
 			title = "";
+			outFile = string.Empty;
 		}
 		// copy constructor
 		public scoreArgs(scoreArgs src)
