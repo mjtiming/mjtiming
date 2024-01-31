@@ -30,14 +30,14 @@ namespace RaceBeam
 		// ---------------------------------------------------------------------------
 		public static void Main(string[] args)
 		{
-            // parse command line arguments
-            // default to 1 day scoring, today's date
-            var argblock = new scoreArgs
-            {
-                eventFolder = "."  // default to current folder
-            };
+			// parse command line arguments
+			// default to 1 day scoring, today's date
+			var argblock = new scoreArgs
+			{
+				eventFolder = "."  // default to current folder
+			};
 
-            for (int i = 0; i < args.Length; i++)
+			for (int i = 0; i < args.Length; i++)
 			{
 				if ((args[i] == "-h") | (args[i] == "-help") | (args[i] == "-?"))
 				{
@@ -129,10 +129,10 @@ namespace RaceBeam
 					}
 				}
 				else if (args[i] == "-out")
-                {
+				{
 					i += 1;
 					argblock.outFile = args[i];
-                }
+				}
 				else
 				{
 					Usage();
@@ -158,12 +158,12 @@ namespace RaceBeam
 			results += textScores.textScore(argblock);
 
 			if (!string.IsNullOrEmpty(argblock.outFile))
-            {
+			{
 				File.WriteAllText(argblock.outFile, results);
 				Console.WriteLine("Results written to %s", argblock.outFile);
-            }
-            else
-            {
+			}
+			else
+			{
 				Console.WriteLine(results);
 			}
 
