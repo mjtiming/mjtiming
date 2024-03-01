@@ -24,19 +24,20 @@ namespace RaceBeam
 		// ---------------------------------------------------------------------------
 		public static void Usage()
 		{
-			Console.WriteLine("Usage: mjCmdLineScore -day1 <day1 date> -day2 <day2 date> -bestsinglerun -set1only -set2only -runtimes -rawtimes -paxtimes -teams -conecounts -classtimes -rookie -maxofficialruns <# runs> -classfile <path to class.csv file> -title <string> -path <path to event data folder>");
+			Console.WriteLine("Usage: mjCmdLineScore -day1 <day1 date> -day2 <day2 date> -bestsinglerun -set1only -set2only -runtimes -rawtimes -paxtimes -teams -conecounts -classtimes -rookie -maxofficialruns <# runs> -classfile <path to class.csv file> -title <string> -path <path to event data folder> -out <file to write to>");
 			Environment.Exit(0);
 		}
 		// ---------------------------------------------------------------------------
 		public static void Main(string[] args)
 		{
-            // parse command line arguments
-            // default to 1 day scoring, today's date
-            var argblock = new scoreArgs
-            {
-                eventFolder = "."  // default to current folder
-            };
-            for (int i = 0; i < args.Length; i++)
+			// parse command line arguments
+			// default to 1 day scoring, today's date
+			var argblock = new scoreArgs
+			{
+				eventFolder = "."  // default to current folder
+			};
+
+			for (int i = 0; i < args.Length; i++)
 			{
 				if ((args[i] == "-h") | (args[i] == "-help") | (args[i] == "-?"))
 				{
@@ -127,6 +128,11 @@ namespace RaceBeam
 						argblock.maxOfficialRuns = 999;
 					}
 				}
+				else if (args[i] == "-out")
+				{
+					i += 1;
+					argblock.outFile = args[i];
+				}
 				else
 				{
 					Usage();
@@ -150,7 +156,17 @@ namespace RaceBeam
 			}
 			argblock.writeCSV = true;
 			results += textScores.textScore(argblock);
-			Console.WriteLine(results);
+
+			if (!string.IsNullOrEmpty(argblock.outFile))
+			{
+				File.WriteAllText(argblock.outFile, results);
+				Console.WriteLine("Results written to %s", argblock.outFile);
+			}
+			else
+			{
+				Console.WriteLine(results);
+			}
+
 			return;
 		}
 	}

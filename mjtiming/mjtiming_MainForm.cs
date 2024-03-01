@@ -913,12 +913,12 @@ namespace RaceBeam
 					string cmdfileName;
 					if (Day2TextBox.Text != "")
 					{
-						cmd += " > " + args.day2 + "__2-day" + "__scores.txt";
+						cmd += " -out " + args.day2 + "__2-day" + "__scores.txt";
 						cmdfileName = eventFolder + "\\" + args.day2 + "_2-day" + "__scoreCMD.bat";
 					}
 					else
 					{
-						cmd += " > " + args.day1 + "__scores.txt";
+						cmd += " -out " + args.day1 + "__scores.txt";
 						cmdfileName =   eventFolder + "\\" + args.day1 + "__scoreCMD.bat";
 					}
 					try
