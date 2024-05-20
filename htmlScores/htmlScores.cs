@@ -53,8 +53,6 @@ namespace RaceBeam  // this is required to get easy reference to the datatypes
             // default to 1 day scoring, today's date, first set only
             scoreArgs scoreArgs = new scoreArgs();
             var argblock = scoreArgs;
-			argblock.eventFolder = @"c:\mjtiming\eventdata";  // default to usual folders
-			argblock.configFolder = @"c:\mjtiming\config";
 			argblock.day1 = DateTime.Now.ToString("yyyy_MM_dd");
 			string configFilename;
 			string configFolder = argblock.configFolder;
