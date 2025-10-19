@@ -13,6 +13,10 @@ Things to do (bugs, deficiencies, wish list)
 	Bug: OPAX group (1st 3 runs) applies everywhere, not just OPAX group scores
 	Scoring -- show DNFs for rookies and non-rookies
 
+October 19, 2025
+Update some documentation
+Change "Import from MSR" to "Import from CSV file"
+
 September 18, 2023
 Added RAWtoFirst and RAWtoNext times in the PAX scoring.
 

@@ -204,7 +204,7 @@ namespace RaceBeam
         	this.MSRImportButton.Name = "MSRImportButton";
         	this.MSRImportButton.Size = new System.Drawing.Size(161, 36);
         	this.MSRImportButton.TabIndex = 7;
-        	this.MSRImportButton.Text = "Import from MSR";
+        	this.MSRImportButton.Text = "Import from CSV file";
         	this.MSRImportButton.UseVisualStyleBackColor = true;
         	this.MSRImportButton.Click += new System.EventHandler(this.MSRImportButtonClick);
         	// 
